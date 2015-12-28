@@ -3,10 +3,18 @@ Translates "Gostakian," the language in Carl Muckenhoupt's 2001 text adventure g
 
 NOTE: The Gostak is a puzzle game, and using this translator will spoil the game for those who wish to play it.
 I created this translator as a learning exercise and because I am a fan of Muckenhoupt's creation.
-I encourage everyone interested in made-up languages or decoding puzzles to try it out themselves:
+I encourage everyone interested in made-up languages or decoding puzzles to try it out themselves:  
 http://ifdb.tads.org/viewgame?id=w5s3sv43s3p98v45
 
-THE LANGUAGE:
+#### Usage:
+Run "GostakTranslator.jar". The "gostak_dictionary.txt" file must be in the same directory as "GostakTranslator.jar".
+
+#### Sample Gostakian Text:
+"Finally, here you are. At the delcot of tondam, where doshes deave. But the doshery lutt is crenned with glauds.
+Glauds! How rorm it would be to pell back to the bewl and distunk them, distunk the whole delcot, let the drokes
+uncren them. But you are the gostak. The gostak distims the doshes. And no glaud will vorl them from you."
+
+#### The Language:
 The language in Carl Muckenhoupt's game is not named, but I call it "Gostakian" for ease of reference. It
 follows English syntax, and includes many English words: articles, prepositions, being verbs, and certain
 others are left in English, but most of the verbs and nouns are completely alien. Many of the objects and
@@ -16,7 +24,7 @@ definitions used in this translator are my own guesses. Furthermore, many Gostak
 unchanged where I felt they had no translation, such as the names of creatures (including the titular
 gostaks themselves).
 
-TRANSLATION:
+#### Translation:
 The input is tokenized using whitespace as a delimiter. Newlines are preserved in the output.
 
 The translator is straightforward and unsophisticated. It makes simple word-to-word conversions with some

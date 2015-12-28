@@ -106,6 +106,7 @@ public class TranslatorGui implements ActionListener {
         mainWindow.add(inputPanel);
         mainWindow.add(outputButtonPanel);
         
+        mainWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         mainWindow.setSize(400, 400);
         mainWindow.setLocationRelativeTo(null); // Center on screen.
         mainWindow.setVisible(true);
