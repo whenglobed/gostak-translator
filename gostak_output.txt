@@ -1,0 +1,1160 @@
+Start of a transcript of
+The Gostak
+An Interactive Game
+Copyright 2001 by Carl Muckenhoupt
+(For a menu, type Menu.)
+Release 2 / Serial number 020305 / Inform v6.21 Library 6/10
+Standard interpreter 1.1 (4f) / Library serial number 000710(bp)
+
+>l
+Not at a glaud.
+
+>r
+
+Delcot
+This is the delcot of tondam, where gitches fly and duscats attack. Across from
+a darken'd entryway, a path exists to northwest and west, enter-ing a samilen to its
+south.
+
+Stick'd in the north exit are five glauds.
+
+>t gitches
+They exist in the hoggam and fly out to kill warbs.
+
+>t entryway
+It's the entryway of a morleon.
+
+>t path
+You'll have to move at it before you can examine it.
+
+>t samilen
+You'll have to move at it before you can examine it.
+A group of gitches moves at the hoggam.
+
+>t exit
+Which do you mean, the west exit, the east exit, the north exit, the south exit,
+the northwest exit, the southwest exit, the northeast exit or the southeast exit?
+
+>north
+You detect nothing useful about the north exit.
+A warb exits the ground.
+
+>t glauds
+Which do you mean, the hold-able glaud, the alive glaud, the glaud-with-
+lock-er, the glaud of jenth or the Cobbic glaud?
+
+>t hold-able
+A hold-able glaud is about as useless as a darf of jenth, but at least it can
+protect the doshery from the gitches.
+A gitch flies from the hoggam to kill and eat the warb.
+
+>t alive
+It's weak, but it's still alive.
+
+>t lock-er
+You can't detect the hold-age, since the glaud-with-lock-er is close'd.
+A warb exits the ground.
+
+>t jenth
+The largest of the glauds, it exists near the north exit: six nayfes of jenth, all
+bad and hard.
+A gitch flies from the hoggam to kill and eat the warb.
+
+>t cobbic
+A glaud with folls of the Cobbics is a awful thing. This one is strong-ly stick'd,
+with a shell of poskot.
+A gitch examines you from the hoggam.
+
+>t shell
+A glaud with folls of the Cobbics is a awful thing. This one is strong-ly stick'd,
+with a shell of poskot.
+
+>open lock-er
+It seems to be lock'd.
+
+>unlock lock-er
+(with the shamtag)
+That doesn't seem to match the lock-er.
+
+>use shamtag
+The shamtag sounds!
+The group of gitches are frighten'd by the sound-ing and move exist.
+A group of gitches moves at the hoggam.
+
+>t shamtag
+It's a good and sharmy shamtag that sounds when you use it. Its top is
+close'd. The shamtag is currently set'd positive.
+
+>set negative
+What do you want to set negative?
+
+>shamtag
+It opens itself, reveal-ing a pogrifon.
+A gitch examines you from the hoggam.
+
+>x pogrifon
+That's not a verb I recognise.
+
+>t pogrifon
+It's a fancy pogrifon of sindish and koldgeon, create'd as a juffet for your
+shamtag.
+A warb exits the ground.
+
+>brighten self
+Brighten'd.
+A gitch flies from the hoggam to kill and eat the warb.
+
+>j
+Are you sure you want to move at the darken'd entryway? yes
+
+Morleon
+This is the morleon where the drokes contail - or did, until it was darken'd.
+The canopy and the exits are all of paided sindish. A fostin is in the northeast
+exit.
+A duscat shudders west and east across the ground.
+
+>t duscat
+It's hardly large, but it could attack you still. It's beckling west and east and
+whine-ing.
+>whine
+You whine. The duscat whines more podly for a minute:
+"duh kuh too... duh toh ker... ka te..."
+Is there use or purpose in that?
+The duscat whines.
+
+>t fostin
+You'll have to move at it before you can examine it.
+
+>move at fostin
+
+Fostin of the Morleon
+The fostin is far too fancy for the morleon, but then, that's why it's a
+fostin. You can detect the morleon from here.
+
+You can detect here a unlock-er and a sign.
+
+>t unlock-er
+You detect nothing useful about the unlock-er.
+
+>hold unlock-er
+Hold'd.
+
+>t sign
+There's a message on the sign: "No Charge-ing".
+
+>charge sign
+You charge it until it's fully-charged, but it discharges.
+
+>hold sign
+Hold'd.
+
+>r
+
+Fostin of the Morleon
+The fostin is far too fancy for the morleon, but then, that's why it's a
+fostin. You can detect the morleon from here.
+
+>k
+You can't move at that exit.
+
+>kh
+
+Morleon
+This is the morleon where the drokes contail - or did, until it was darken'd.
+The canopy and the exits are all of paided sindish. A fostin is in the northeast
+exit.
+A duscat shudders west and east across the ground.
+
+>use shamtag
+Since it's set'd negative, it doesn't sound.
+
+>close shamtag
+You close the shamtag.
+
+>set shamtag positive
+You set the shamtag positive.
+
+>use shamtag
+The shamtag sounds!
+The duscat shudders and moves exist.
+
+>k
+
+Delcot
+This is the delcot of tondam, where gitches fly and duscats attack. Across from
+a darken'd entryway, a path exists to northwest and west, enter-ing a samilen to its
+south.
+
+Stick'd in the north exit are five glauds.
+
+>j
+Are you sure you want to move at the darken'd entryway? yes
+Please answer yes or no.> no
+Ok, you don't move there.
+A warb exits the ground.
+
+>hold warb
+Hold'd.
+
+>t warb
+A lurpid warb of the ground.
+
+>drop warb
+It enters the ground.
+
+>hold gitch
+You hold one.
+
+>t gitch
+(the gitch)
+Hold-ing it, you can detect its deeks. They're loddled, so it's a loddle-deeked
+gitch. The rest of the group will be loddle-deeked too.
+A loddle-deeked gitch examines you from the hoggam.
+
+>drop gitch
+(the gitch)
+Drop'd, it flies away.
+A group of loddle-deeked gitches moves at the hoggam.
+
+>kl
+
+Path
+You're on a path exist-ing south, with gropples on the canopy. There's a barrier
+across the path here, and the delcot is to east.
+A pilter exists here, examine-ing the canopy for gropples to eat.
+
+>t pilter
+A massive animal with powerful tooths, examine-ing the northeast exit.
+
+>t canopy
+You detect nothing useful about the canopy.
+The pilter moves at the south exit.
+
+>t gropples
+The path is cover'd with them.
+
+>t barrier
+The barrier exists across the path.
+
+>use barrier
+You use it. Nothing useful results.
+
+>close barrier
+You close it for a minute, but it just opens itself again. It must be bad.
+
+>h
+
+Path
+You're on a path exist-ing north and west, with gropples on the canopy.
+A pilter exists here, examine-ing the canopy for gropples to eat.
+
+>k
+
+Path
+You're on a path exist-ing south and east, with gropples on the canopy. There's a
+barrier across the path here.
+
+>h
+
+Path
+You're on a path exist-ing north, with gropples on the canopy. To south is the
+samilen you detect'd from the delcot.
+
+>h
+As you enter the samilen, a droke detects you. "A gostak!" he speaks. "Here to
+brighten the doshes? You can't. A gamda create'd a gheliper in the delcot, and the
+gheliper's been drop-ing glauds at the doshery. And as for us drokes, well, ever
+since the gamda, our morleon has been darken'd. But enter and speak! Maybe
+you'll detect something useful."
+
+Samilen
+A samilen for the drokes of tondam. You can move at the delcot to northeast or the
+path to north.
+A droke is speak-ing at himself by the south exit.
+
+You can also detect here a darf-creater.
+
+>t darf-creater
+It's a jeddy-paided darf-creater with three selectors. The brimny selector is set'd
+negative, the clarby selector is set'd positive, and the statched selector is set'd negative.
+Its receptacle holds a tarshen darf.
+
+>eat tarshen
+(first hold-ing the tarshen darf)
+You eat a tarshen darf.
+
+>set clarby negative
+You set the clarby selector negative.
+
+>use darf-creater
+It creates a suddy darf and drops it into a receptacle.
+
+>t suddy
+It's not eat-able by gostaks, but you could drop it at a pank if you detect one.
+
+>eat suddy
+(first hold-ing the suddy darf)
+Ignore-ing the droke's speak, you eat a suddy darf. But suddy darfs are only
+for pilters and panks, not dunmile gostaks. Within a minute, you dissolve into the
+ground.
+
+
+*** You have been kill'd ***
+
+
+
+In that game, there were are five glauds stick'd in the north exit of the
+delcot.
+
+Would you like to Restart, Restore a saved game, Undo your last minute or
+Quit?
+> undo
+Samilen
+[Previous minute undone.]
+
+>speak at droke about suddy
+"Don't eat those. They're for animals only."
+
+>hold suddy
+Hold'd.
+
+>speak at droke about glauds
+(the glauds)
+"There's five glauds. Unless the gheliper create'd more."
+
+>speak at droke about glaud
+Which do you mean, the hold-able glaud, the alive glaud, the glaud-with-
+lock-er, the glaud of jenth or the Cobbic glaud?
+
+>hold-able
+"Hardly a glaud at all. Unless you're a duscat or a animal or something and can't
+hold things."
+
+>speak at droke about animal
+"We're always detect-ing pilters on the path. They're almost as massive as panks,
+but you can't create gropples without pilters."
+
+>speak at droke about duscat
+(the duscat)
+"So that's what's been attack-ing drokes in the morleon. It must have been frighten'd
+from the delcot by the gheliper."
+
+>speak at droke about duscats
+"I can't speak anything at you about those."
+
+>speak at droke about pilters
+"We're always detect-ing pilters on the path. They're almost as massive as panks,
+but you can't create gropples without pilters."
+
+>speak at droke about pank
+"Powerful tooths, those panks hold. They can bite sindish or peel the shell
+off a lonn."
+
+>speak at droke about lonn
+"You won't detect any lonns in the delcot of tondam. The Cobbics hold them all."
+
+>speak at droke about sindish
+(sindish)
+"The exits of the morleon are of sindish."
+
+>speak at droke about exit
+Which do you mean, the west exit, the east exit, the north exit, the south exit,
+the northwest exit, the southwest exit, the northeast exit or the southeast exit?
+
+>southeast
+"I can't speak anything at you about that."
+
+>speak at droke about shell
+(the shells in general)
+"The Cobbics are fond of shells. That's why there are shells on some of the
+darfs here."
+
+>speak at droke about darfs
+You haven't detect'd or been speak'd about any such thing.
+
+>speak at droke about darf
+Which do you mean, the suddy darf, the tarshen darf or the darf of jenth?
+
+>jenth
+"Darfs of jenth are awful!" speaks the droke. "It's a wainted falliger.
+Awful. Always the darfs of jenth."
+
+>speak at droke about jenth
+(the darf of jenth)
+"Darfs of jenth are awful!" speaks the droke. "It's a wainted falliger.
+Awful. Always the darfs of jenth."
+
+>speak at droke about jenth glaud
+"Ah, jenth. It can't be use'd, or kill'd, or open'd. But I once detect'd a pank
+in a sitch of jenth. The pank bite'd the jenth with its tooths, and it just
+drop'd from where it was stick'd."
+
+>speak at droke about tooths
+(the tooths)
+"Most animals hold tooths, but few hold ones powerful enough to bite sindish or
+jenth."
+
+>speak at droke about gheliper
+"She was the largest gheliper I've ever detect'd, and bad, too. She just enter'd
+the delcot, drop'd those glauds at the doshery, and move'd away."
+
+>speak at droke about shamtag
+"Don't use that thing in the samilen."
+
+>speak at droke about pogrifon
+"That's weak for a gostak's shamtag, isn't it? They must be fond of you at the
+bewl."
+
+>speak at droke about warb
+"That's for the gitches. Ever examine'd the dorl? Gitches don't exist there. No
+warbs, that's why."
+
+>speak at droke about gitches
+"We're near of gitches here. The delcot is cover'd with them. Hence the
+hoggam."
+
+>speak at droke about hoggam
+"I can't speak anything at you about that."
+
+>speak at droke about deeks
+"She was the largest gheliper I've ever detect'd, and bad, too. She just enter'd
+the delcot, drop'd those glauds at the doshery, and move'd away."
+
+>speak at droke about loddle-deeked
+"We're near of gitches here. The delcot is cover'd with them. Hence the
+hoggam."
+
+>speak at droke about lock-er
+"One of the other drokes drop'd a unlock-er in the fostin, but we can't enter there
+now. The whole morleon was darken'd by the gamda that create'd the gheliper.
+
+"But you're a gostak. Darken-age is nothing to you, eh?"
+
+>speak at droke about unlock-er
+"So, you hold'd it. Could you give it at me after you've unlock'd the
+lock-er?"
+
+>speak at droke about purpose
+"I'm a droke; my purpose is speak-ing. But you're a gostak. Your purpose is darken-age
+and brighten-ing. Brighten-ing the doshes."
+
+>speak at droke about bewl
+"That's where you gostaks move from, isn't it?"
+
+>speak at droke about morleon
+(the Morleon)
+"It's darken'd, and everyone who's move'd at it has been attack'd."
+
+>speak at droke about samilen
+"I've been in the samilen ever since the morleon was darken'd."
+
+>speak at droke about gamda
+"It could reenter. It could even create another gheliper. After all, there are no
+lonns here."
+
+>speak at droke about cobbics
+"The Cobbics exist in the dorl and create the panks."
+
+>speak at droke about sitch
+You haven't detect'd or been speak'd about any such thing.
+
+>speak at droke about gropples
+"I'm fond of the gropples on the path, but pilters are always eat-ing them."
+
+>speak at droke about path
+(the path)
+"It's a jurmy exist, but not as jurmy as the morleon."
+
+>speak at droke about canopy
+"I can't speak anything at you about that."
+
+>speak at droke about doshery
+"It's north of the delcot, but the gheliper create'd some glauds, and they're
+protect-ing it. I can't speak why."
+
+>speak at droke about barrier
+"Before we create'd that barrier, the pilters would enter the delcot sometimes."
+
+>speak at droke about sign
+"A sign? A sign? Oh, the 'No Charge-ing' sign from the fostin. Not useful. You
+can charge. Not there's anything very charge-able left."
+
+>sound
+You sound weak-ly.
+The droke examines you upset.
+
+>whine
+You whine.
+
+>speak at droke about alive
+"That which is alive can be kill'd. Among other things."
+
+>speak at droke about cobbic
+(the Cobbics)
+"The Cobbics exist in the dorl and create the panks."
+
+>speak at droke about glaud
+Which do you mean, the hold-able glaud, the alive glaud, the glaud-with-
+lock-er, the glaud of jenth or the Cobbic glaud?
+
+>no
+To speak at someone, try "someone, ignore me" or some such.
+
+>droke, ignore me
+"No, I'll just exist here in case one of the other drokes reenters."
+
+>speak at droke about brimny
+"That's for koldgeon."
+
+>speak at droke about clarby
+"That's to create the darfs nice. I always set that one positive for a nice tarshen
+darf, but if one of the other selectors is set'd, it creates it with a shell."
+
+>speak at droke about statched
+"That's for shebtak."
+
+>speak at droke about koldgeon
+(koldgeon)
+"There's koldgeon in some of the darfs. Try set-ing the brimny selector positive
+before you use the create-er."
+
+>speak at droke about shebtak
+"There's shebtak in some of the darfs. Try set-ing the statched selector positive
+before you use the create-er."
+
+>set brimny positive
+You set the brimny selector positive.
+
+>use create-er
+It creates a footch darf and drops it into a receptacle.
+
+>speak at droke about footch
+"I'm fond of the tarshen ones."
+
+>t footch
+It's upset with footch.
+
+>eat footch
+(first hold-ing the footch darf)
+You eat a footch darf.
+
+>set clarby positive
+You set the clarby selector positive.
+
+>use create-er
+It creates a palgic darf and drops it into a receptacle.
+
+>t palgic
+You detect nothing useful about the palgic darf.
+
+>speak at droke about palgic
+"If you're fond of those, create a whomm one! The whomm ones are even good-er."
+
+>eat palgic
+(first hold-ing the palgic darf)
+You eat a palgic darf.
+
+>set statched positive
+You set the statched selector positive.
+
+>use create-er
+It creates a whomm darf and drops it into a receptacle.
+
+>t whomm
+Good, very good. There's so much koldgeon in this darf, you can't examine it for
+more than a minute.
+
+>speak at droke about whomm
+"That's a darf for a gostak, that is."
+
+>eat whomm
+(first hold-ing the whomm darf)
+Now that's whomm! For a minute, you're enlarge'd.
+
+>use create-er
+It creates a whomm darf and drops it into a receptacle.
+
+>hold whomm
+Hold'd.
+
+>set clarby negative
+You set the clarby selector negative.
+
+>use create-er
+It creates a darf of jenth and drops it into a receptacle.
+
+>t jenth
+Jenth! Why are there jenth darfs? Who eats jenth?
+
+>use at droke about jenth darf
+You can't detect any such thing.
+
+>speak at droke about jenth darf
+"Darfs of jenth are awful!" speaks the droke. "It's a wainted falliger.
+Awful. Always the darfs of jenth."
+
+>set brimny negative
+You set the brimny selector negative.
+
+>use create-er
+It creates a hosh darf and drops it into a receptacle.
+
+>t hosh
+You detect nothing useful about the hosh darf.
+
+>speak at droke about hosh
+"I'm fond of the tarshen ones."
+
+>eat hosh
+(first hold-ing the hosh darf)
+You eat a hosh darf.
+
+>set clarby positive
+You set the clarby selector positive.
+
+>use create-er
+It creates a skebbic darf and drops it into a receptacle.
+
+>t skebbic
+A darf with a shell of shebtak.
+
+>speak at droke about skebbic
+"I'm fond of the tarshen ones."
+
+>eat skebbic
+(first hold-ing the skebbic darf)
+You eat a skebbic darf.
+
+>speak at droke about topthtage
+You haven't detect'd or been speak'd about any such thing.
+
+>speak at droke about purpose
+"I'm a droke; my purpose is speak-ing. But you're a gostak. Your purpose is darken-age
+and brighten-ing. Brighten-ing the doshes."
+
+>speak at droke about brighten-ing
+"That's what you do to the doshes."
+
+>speak at droke about doshes
+"That's what you brighten. But they're in the doshery, to north of the delcot. So
+you can't brighten them while there are glauds stick'd there."
+
+>speak at droke about darken-age
+"You're the gostak. Darken-age is your purpose."
+
+>speak at droke about juffet
+You haven't detect'd or been speak'd about any such thing.
+
+>l
+
+Path
+You're on a path exist-ing north, with gropples on the canopy. To south is the
+samilen you detect'd from the delcot.
+
+>l
+
+Path
+You're on a path exist-ing south and east, with gropples on the canopy. There's a
+barrier across the path here.
+
+>jl
+
+Path
+You're on a path exist-ing south, with gropples on the canopy. There's a barrier
+across the path here, and the delcot is to east.
+
+>z
+You rest for a minute.
+
+>z
+You rest for a minute.
+
+>z
+You rest for a minute.
+
+>z
+You rest for a minute.
+
+>z
+You rest for a minute.
+
+>h
+
+Path
+You're on a path exist-ing north and west, with gropples on the canopy.
+A pilter exists here, examine-ing the canopy for gropples to eat.
+The pilter examines your whomm darf.
+
+>use shamtag
+The shamtag sounds!
+The pilter is frighten'd by the sound-ing.
+The pilter moves at the west exit.
+
+>k
+
+Path
+You're on a path exist-ing south and east, with gropples on the canopy. There's a
+barrier across the path here.
+A pilter exists here, examine-ing the canopy for gropples to eat.
+
+>sound
+You sound weak-ly.
+The pilter ignores you.
+
+>use shamtag
+The shamtag sounds!
+The pilter is frighten'd by the sound-ing.
+The pilter moves at the northeast exit.
+
+>jl
+
+Path
+You're on a path exist-ing south, with gropples on the canopy. There's a barrier
+across the path here, and the delcot is to east.
+A pilter exists here, examine-ing the canopy for gropples to eat.
+
+>m
+You are hold-ing:
+two darfs:
+a whomm darf
+a suddy darf
+a sign
+a unlock-er
+your shamtag (which is close'd)
+
+>j
+
+Delcot
+This is the delcot of tondam, where gitches fly and duscats attack. Across from
+a darken'd entryway, a path exists to northwest and west, enter-ing a samilen to its
+south.
+
+Stick'd in the north exit are five glauds.
+
+>hold hold-able
+Hold'd.
+
+>k
+
+Path
+You're on a path exist-ing south, with gropples on the canopy. There's a barrier
+across the path here, and the delcot is to east.
+A pilter exists here, examine-ing the canopy for gropples to eat.
+
+>t pilter
+A massive animal with powerful tooths, examine-ing the northeast exit.
+The pilter examines your whomm darf.
+
+>drop hold-able at south exit
+It sticks itself into the south exit.
+The pilter eats a gropple.
+
+>use shamtag
+The shamtag sounds!
+The pilter is frighten'd by the sound-ing.
+The pilter moves at the south exit, but detects a glaud.
+The pilter moves at the east exit.
+
+>j
+
+Delcot
+This is the delcot of tondam, where gitches fly and duscats attack. Across from
+a darken'd entryway, a path exists to northwest and west, enter-ing a samilen to its
+south.
+
+Stick'd in the north exit are four glauds.
+A pilter exists here, examine-ing the canopy for gropples to eat.
+The pilter examines your whomm darf.
+
+>z
+You rest for a minute.
+
+>z
+You rest for a minute.
+The pilter detects the glaud of jenth and strong-ly bites it in the top with its
+tooths. The pilter eats the bite-age, and the glaud dissolves into the ground.
+A loddle-deeked gitch examines you from the hoggam.
+
+>hold gitch
+You hold one.
+
+>use alive
+The alive glaud wouldn't be fond of that.
+The pilter examines your whomm darf.
+A warb exits the ground.
+Your gitch whines weak-ly.
+
+>bite alive
+You bite it weak-ly.
+The pilter examines your whomm darf.
+A loddle-deeked gitch flies from the hoggam to kill and eat the warb.
+
+>kill alive
+You kill it strong-ly. It dissolves into the ground.
+The pilter examines you, but detects nothing it can eat.
+
+>use cobbic
+It uses you back.
+
+>bite cobbic
+You bite it weak-ly.
+
+>bolteb cobbic
+That's not a verb I recognise.
+
+>peel cobbic
+The shell dissolves into the ground, but the glaud is still stick'd.
+The pilter examines your whomm darf.
+A warb exits the ground.
+
+>t cobbic
+A glaud with folls of the Cobbics is a awful thing. This one is strong-ly stick'd,
+but without a shell, but still cover'd with poskot.
+The pilter examines you, but detects nothing it can eat.
+A loddle-deeked gitch flies from the hoggam to kill and eat the warb.
+
+>use cobbic
+It uses you back.
+The pilter examines your whomm darf.
+
+>charge cobbic
+You charge it until it's fully-charged... and fully-charged it exists.
+The pilter examines your whomm darf.
+A group of loddle-deeked gitches moves at the hoggam.
+
+>use cobbic
+It dissolves into the ground.
+The pilter examines your whomm darf.
+A group of loddle-deeked gitches moves at the hoggam.
+
+>detect
+
+Delcot
+This is the delcot of tondam, where gitches fly and duscats attack. Across from
+a darken'd entryway, a path exists to northwest and west, enter-ing a samilen to its
+south.
+
+Stick'd in the north exit is a glaud.
+A pilter exists here, examine-ing the canopy for gropples to eat.
+The pilter moves at the northwest exit.
+Your gitch whines weak-ly.
+
+>t glaud
+You can't detect the hold-age, since the glaud-with-lock-er is close'd.
+A group of loddle-deeked gitches moves at the hoggam.
+
+>unlock the lock-er with unlock-er
+You unlock the glaud-with-lock-er.
+A loddle-deeked gitch examines you from the hoggam.
+
+>open glaud
+You open the glaud-with-lock-er, reveal-ing a juffet.
+
+>t juffet
+It's as hard as jenth. Just examine-ing it sets your eyes.
+
+>hold juffet
+A juffetless glaud is no glaud at all. It dissolves into the ground.
+
+>kh
+
+Samilen
+A samilen for the drokes of tondam. You can move at the delcot to northeast or the
+path to north.
+A droke is speak-ing at himself by the south exit.
+
+You can also detect here a darf-creater.
+
+>speak at droke about pilter
+"We're always detect-ing pilters on the path. They're almost as massive as panks,
+but you can't create gropples without pilters."
+
+>speak at droke about jenth
+(the darf of jenth)
+"Darfs of jenth are awful!" speaks the droke. "It's a wainted falliger.
+Awful. Always the darfs of jenth."
+
+>speak at droke about juffet
+"From a glaud?" The droke reveals nice. "Well, aren't you good! You'll brighten
+the doshes in a minute now that you've hold'd a juffet of the gheliper."
+Your gitch whines weak-ly.
+
+>speak at droke about poskot
+(poskot)
+"It's not as hard as jenth or as fancy as sindish, but the Cobbics are fond of
+it. The dorl is cover'd with it."
+
+>speak at droke about fostin
+"Drokes were always drop-ing things there, back before the gamda darken'd it
+all."
+Your gitch whines weak-ly.
+
+>speak at droke about entryway
+"Move at it and you'll move at the morleon."
+
+>speak at droke about deeks
+"She was the largest gheliper I've ever detect'd, and bad, too. She just enter'd
+the delcot, drop'd those glauds at the doshery, and move'd away."
+
+>speak at droke about loddle
+"We're near of gitches here. The delcot is cover'd with them. Hence the
+hoggam."
+
+>drop ditch at droke
+You can't detect any such thing.
+
+>i
+That's not a verb I recognise.
+
+>m
+You are hold-ing:
+a juffet
+your gitch
+two darfs:
+a whomm darf
+a suddy darf
+a sign
+a unlock-er
+your shamtag (which is close'd)
+Your gitch bites you.
+
+>drop gitch at droke
+Drop'd, it flies away.
+
+>undo
+Samilen
+[Previous minute undone.]
+
+>give gitch at droke
+He holds it, then drops it back at you. "Loddle-deeked, is it? It's been many
+minutes since the gitches in the delcot of tondam have been loddle-deeked.
+That'll be the gheliper's doing."
+Your gitch whines weak-ly.
+
+>jl
+
+Delcot
+This is the delcot of tondam, where gitches fly and duscats attack. Across from
+a darken'd entryway, a path exists to northwest and west, enter-ing a samilen to its
+south.
+A warb exits the ground.
+
+>set shamtag positive
+That's already positive.
+A loddle-deeked gitch flies from the hoggam to kill and eat the warb.
+Your gitch examines you.
+
+>set shamtag negative
+It opens itself, reveal-ing a pogrifon.
+A warb exits the ground.
+
+>hold pogrifon
+Hold'd.
+A loddle-deeked gitch flies from the hoggam to kill and eat the warb.
+
+>drop whomm darf in shamtag
+You drop the whomm darf into the shamtag.
+A group of loddle-deeked gitches moves at the hoggam.
+
+>t shamtag
+It's a good and sharmy shamtag that sounds when you use it. Its top is
+open'd and holds a whomm darf. The shamtag is currently set'd negative.
+
+>close shamtag
+You close the shamtag.
+A warb exits the ground.
+
+>set shamtag positive
+You set the shamtag positive.
+A loddle-deeked gitch flies from the hoggam to kill and eat the warb.
+
+>l
+As you enter the doshery, you detect a massive smell. But not the nice smell of
+the doshes.
+
+It is the smell of a gheliper.
+
+So that's the purpose of the glauds! The gheliper is exist-ing in the doshery itself
+- exist-ing near the doshes, even.
+
+"Gostak," she speaks. "So you've move'd through my glauds. But you can't move
+through me. And I'll kill you before you do anything to my doshes."
+
+Doshery
+The doshery! Shinkod to all gostaks, and purpose of the bewl. But it's far more
+massive than the bewl, and enters to the brenze. And of course, it's cover'd with
+doshes throughout.
+A gheliper exists near the doshes, protect-ing them.
+The gheliper detects your shamtag and shudders strong-ly!
+
+>t gheliper
+The gheliper exists near the doshes, protect-ing them, her renzes good, unkillable.
+Your gitch examines you.
+
+>t doshery
+
+Doshery
+The doshery! Shinkod to all gostaks, and purpose of the bewl. But it's far more
+massive than the bewl, and enters to the brenze. And of course, it's cover'd with
+doshes throughout.
+A gheliper exists near the doshes, protect-ing them.
+The gheliper detects your juffet and shudders strong-ly!
+Your gitch whines weak-ly.
+
+>t renzes
+The gheliper exists near the doshes, protect-ing them, her renzes good, unkillable.
+
+>t eyes
+The gheliper exists near the doshes, protect-ing them, her renzes good, unkillable.
+
+>t deeks
+(the gheliper)
+The gheliper exists near the doshes, protect-ing them, her renzes good, unkillable.
+
+>t doshes
+They're all upset and wass to be brighten'd, but the gheliper is protect-ing them.
+They're also examine-ing you.
+
+>brighten doshes
+Since the gheliper is protect-ing them, the gheliper is brighten'd instead. The
+gheliper laughs strong-ly. "I speak'd that I'd kill you if you did that."
+
+
+*** You have been kill'd ***
+
+
+
+In that game, there were are no glauds stick'd in the north exit of the
+delcot, and the doshes were not brighten'd.
+
+Would you like to Restart, Restore a saved game, Undo your last minute or
+Quit?
+> undo
+Doshery
+[Previous minute undone.]
+
+>h
+
+Delcot
+This is the delcot of tondam, where gitches fly and duscats attack. Across from
+a darken'd entryway, a path exists to northwest and west, enter-ing a samilen to its
+south.
+A warb exits the ground.
+Your gitch examines you.
+
+>l
+"Back again, weak gostak? I'm still here, and the doshes are still mine."
+
+Doshery
+The doshery! Shinkod to all gostaks, and purpose of the bewl. But it's far more
+massive than the bewl, and enters to the brenze. And of course, it's cover'd with
+doshes throughout.
+A gheliper exists near the doshes, protect-ing them.
+
+>use shamtag
+The shamtag sounds strong-ly, with powerful tones!
+The gheliper laughs. "No tones? Some gostak you are."
+
+>use shamtag
+The shamtag sounds strong-ly, with powerful tones!
+
+>k
+You can't move at that exit.
+The doshes move exist.
+
+>j
+You can't move at that exit.
+The gheliper disnarbs her deeks and protects the doshes.
+
+>h
+
+Delcot
+This is the delcot of tondam, where gitches fly and duscats attack. Across from
+a darken'd entryway, a path exists to northwest and west, enter-ing a samilen to its
+south.
+
+You can also detect here a warb.
+A loddle-deeked gitch flies from the hoggam to kill and eat the warb.
+Your gitch bites you.
+
+>i
+That's not a verb I recognise.
+
+>set shamtag positive
+That's already positive.
+
+>set shamtag negative
+It opens itself, reveal-ing a whomm darf.
+
+>t whomm
+Good, very good. There's so much koldgeon in this darf, you can't examine it for
+more than a minute.
+
+>hold whomm
+Hold'd.
+A warb exits the ground.
+
+>drop juffet in durgrid
+You can't detect any such thing.
+
+>drop juffet in durgid
+You can't detect any such thing.
+
+>drop juffet in shamtag
+You drop the juffet into the shamtag.
+A loddle-deeked gitch flies from the hoggam to kill and eat the warb.
+
+>close shamtag
+You close the shamtag.
+A warb exits the ground.
+
+>set shamtag positive
+You set the shamtag positive.
+A loddle-deeked gitch flies from the hoggam to kill and eat the warb.
+
+>l
+"Back again, weak gostak? I'm still here, and the doshes are still mine."
+
+Doshery
+The doshery! Shinkod to all gostaks, and purpose of the bewl. But it's far more
+massive than the bewl, and enters to the brenze. And of course, it's cover'd with
+doshes throughout.
+A gheliper exists near the doshes, protect-ing them.
+
+>use shamtag
+The shamtag sounds strong-ly, with tones of the gheliper!
+The gheliper is frighten'd by her own tones! She protects her eyes.
+
+>kill gheliper
+The gheliper just ignores your weak kill-age.
+
+>brighten doshes
+You brighten the doshes.
+
+The gheliper detects the brighten'd doshes, and is dunmile. "My doshes! All my
+martle doshes!" She examines you, and protects the south exit. "You! Everything was so
+nice, so tunsel, until you move'd from the bewl, unstick-ing my glauds, attack-ing
+the darken-age, brighten-ing my... brighten-ing my..."
+
+She shudders. "You... you gostak!" It is the best thing she could speak. She
+could kill you now...
+
+But with the doshes brighten'd, her misdeave is skent, and instead, she just
+sounds stottily and flies away.
+
+You move at south. It's quiet in the delcot - even the gitches are quiet. But the
+gheliper's fly-ing could be detect'd from the dorl, and maybe even the bewl. The
+drokes must have detect'd it. Soon they will reenter, and all will be nice here
+again.
+
+Of course, the gheliper could always reenter. The gamda, even, could reenter. But
+for now, the doshes are brighten'd. And that's enough for a gostak.
+
+
+*** You have succeed'd ***
+
+
+
+Would you like to Restart, Restore a saved game, Undo your last minute or
+Quit?
+> quit

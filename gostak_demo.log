@@ -1,0 +1,1160 @@
+Start of a transcript of
+The Gostak
+An Interofgan Halpock 
+Copyright 2001 by Carl Muckenhoupt 
+(For a jallon, louk JALLON.) 
+Release 2 / Serial number 020305 / Inform v6.21 Library 6/10 
+Standard interpreter 1.1 (4F) / Library serial number 000710(bp)
+
+>l
+Not at a glaud.
+
+>r
+
+Delcot
+This is the delcot of tondam, where gitches frike and duscats glake. Across from
+a tophthed curple, a gomway deaves to kiloff and kirf, gombing a samilen to its
+hoff.
+
+Crenned in the loff lutt are five glauds.
+
+>t gitches
+They deave in the hoggam and frike out to zank warbs.
+
+>t curple
+It's the curple of a morleon.
+
+>t gomway
+You'll have to pell at it before you can tunk it.
+
+>t samilen
+You'll have to pell at it before you can tunk it.
+A naft of gitches pells at the hoggam.
+
+>t lutt
+Which do you mean, the kirf lutt, the jirf lutt, the loff lutt, the hoff lutt, 
+the kiloff lutt, the kihoff lutt, the jiloff lutt or the jihoff lutt?
+
+>loff
+You reb nothing heamy about the loff lutt.
+A warb degombs the brangy.
+
+>t glauds
+Which do you mean, the raskable glaud, the poltive glaud, the glaud-with-
+roggler, the glaud of jenth or the Cobbic glaud?
+
+>t raskable
+A raskable glaud is about as unheamy as a darf of jenth, but at least it can
+vorl the doshery from the gitches.
+A gitch frikes from the hoggam to zank and leil the warb.
+
+>t poltive
+It's stin, but it's still poltive.
+
+>t roggler
+You can't reb the raskage, since the glaud-with-roggler is lelloed.
+A warb degombs the brangy.
+
+>t jenth
+The gopest of the glauds, it deaves gurr the loff lutt: six nayfes of jenth, all
+dass and tavid.
+A gitch frikes from the hoggam to zank and leil the warb.
+
+>t cobbic
+A glaud with folls of the Cobbics is a scurm thing. This one is durly crenned,
+with a calbice of poskot.
+A gitch tunks you from the hoggam.
+
+>t calbice
+A glaud with folls of the Cobbics is a scurm thing. This one is durly crenned,
+with a calbice of poskot.
+
+>skobe roggler
+It seems to be roggled.
+
+>reggle roggler
+(with the shamtag)
+That doesn't seem to sweff the roggler.
+
+>durch shamtag
+The shamtag flomes!
+The naft of gitches are volded by the floming and pell deave.
+A naft of gitches pells at the hoggam.
+
+>t shamtag
+It's a snave and sharmy shamtag that flomes when you durch it. Its dugrid is
+lelloed. The shamtag is currently riked gemmly.
+
+>rike bommly
+What do you want to rike bommly?
+
+>shamtag
+It skobes itself, abvating a pogrifon.
+A gitch tunks you from the hoggam.
+
+>x pogrifon
+That's not a dape I recognise.
+
+>t pogrifon
+It's a dobbly pogrifon of sindish and koldgeon, tunded as a juffet for your
+shamtag.
+A warb degombs the brangy.
+
+>distim self
+Distimmed. 
+A gitch frikes from the hoggam to zank and leil the warb.
+
+>j
+Are you sure you want to pell at the tophthed curple? bal
+
+Morleon
+This is the morleon where the drokes contail - or did, until it was tophthed.
+The fosk and the lutts are all of paided sindish. A fostin is in the jiloff
+lutt.
+A duscat beckles kirf and jirf across the brangy.
+
+>t duscat
+It's hardly gope, but it could glake you still. It's beckling kirf and jirf and
+nurling.
+>nurl
+You nurl. The duscat nurls more podly for a camling:
+"duh kuh too... duh toh ker... ka te..."
+Is there heam or fesh in that?
+The duscat nurls.
+
+>t fostin
+You'll have to pell at it before you can tunk it.
+
+>pell at fostin
+
+Fostin of the Morleon
+The fostin is far too dobbly for the morleon, but then, that's why it's a
+fostin. You can reb the morleon from here.
+
+You can reb here a reggler and a chalm.
+
+>t reggler
+You reb nothing heamy about the reggler.
+
+>rask reggler
+Rasked.
+
+>t chalm
+There's a musny on the chalm: "NO GASKING".
+
+>gask chalm
+You gask it until it's blide, but it disgasks.
+
+>rask chalm
+Rasked.
+
+>r
+
+Fostin of the Morleon
+The fostin is far too dobbly for the morleon, but then, that's why it's a
+fostin. You can reb the morleon from here.
+
+>k
+You can't pell at that lutt.
+
+>kh
+
+Morleon
+This is the morleon where the drokes contail - or did, until it was tophthed.
+The fosk and the lutts are all of paided sindish. A fostin is in the jiloff
+lutt.
+A duscat beckles kirf and jirf across the brangy.
+
+>durch shamtag
+Since it's riked bommly, it doesn't flome.
+
+>lello shamtag
+You lello the shamtag.
+
+>rike shamtag gemmly
+You rike the shamtag gemmly.
+
+>durch shamtag
+The shamtag flomes!
+The duscat beckles and pells deave.
+
+>k
+
+Delcot
+This is the delcot of tondam, where gitches frike and duscats glake. Across from
+a tophthed curple, a gomway deaves to kiloff and kirf, gombing a samilen to its
+hoff.
+
+Crenned in the loff lutt are five glauds.
+
+>j
+Are you sure you want to pell at the tophthed curple? yes
+Please answer bal or da.> da
+OK, you don't pell there.
+A warb degombs the brangy.
+
+>rask warb
+Rasked.
+
+>t warb
+A lurpid warb of the brangy.
+
+>disrask warb
+It gombs the brangy.
+
+>rask gitch
+You rask one.
+
+>t gitch
+(the gitch)
+Rasking it, you can reb its deeks.  They're loddled, so it's a loddle-deeked
+gitch.  The rest of the naft will be loddle-deeked too.
+A loddle-deeked gitch tunks you from the hoggam.
+
+>disrask gitch
+(the gitch)
+Disrasked, it frikes fosken.
+A naft of loddle-deeked gitches pells at the hoggam.
+
+>kl
+
+Gomway
+You're on a gomway deaving hoff, with gropples on the fosk. There's a stike
+across the gomway here, and the delcot is to jirf.
+A pilter deaves here, tunking the fosk for gropples to leil.
+
+>t pilter
+A mavrous plave with murgous goaves, tunking the jiloff lutt.
+
+>t fosk
+You reb nothing heamy about the fosk.
+The pilter pells at the hoff lutt.
+
+>t gropples
+The gomway is motched with them.
+
+>t stike
+The stike deaves across the gomway.
+
+>durch stike
+You durch it. Nothing heamy results.
+
+>lello stike
+You lello it for a camling, but it just skobes itself again. It must be dass.
+
+>h
+
+Gomway
+You're on a gomway deaving loff and kirf, with gropples on the fosk.
+A pilter deaves here, tunking the fosk for gropples to leil.
+
+>k
+
+Gomway
+You're on a gomway deaving hoff and jirf, with gropples on the fosk. There's a
+stike across the gomway here.
+
+>h
+
+Gomway
+You're on a gomway deaving loff, with gropples on the fosk. To hoff is the
+samilen you rebbed from the delcot.
+
+>h
+As you gomb the samilen, a droke rebs you. "A gostak!" he doatches. "Here to
+distim the doshes? You can't. A gamda tunded a gheliper in the delcot, and the
+gheliper's been pobbing glauds at the doshery. And as for us drokes, well, ever
+since the gamda, our morleon has been tophthed. But gomb and doatch! Maybe
+you'll reb something heamy."
+
+Samilen
+A samilen for the drokes of tondam. You can pell at the delcot to jiloff or the
+gomway to loff.
+A droke is doatching at himself by the hoff lutt.
+
+You can also reb here a darftunder.
+
+>t darftunder
+It's a jeddy-paided darftunder with three coyds. The brimny coyd is riked
+bommly, the clarby coyd is riked gemmly, and the statched coyd is riked bommly.
+Its chender rasks a tarshen darf.
+
+>leil tarshen
+(first rasking the tarshen darf)
+You leil a tarshen darf.
+
+>rike clarby bommly
+You rike the clarby coyd bommly.
+
+>durch darftunder
+It tunds a suddy darf and pobs it into a chender.
+
+>t suddy
+It's not leilable by gostaks, but you could pob it at a pank if you reb one.
+
+>leil suddy
+(first rasking the suddy darf)
+Distunking the droke's doatch, you leil a suddy darf. But suddy darfs are only
+for pilters and panks, not dunmile gostaks. Within a camling, you smib into the
+brangy.
+
+
+    *** You have been zanked ***
+
+
+ 
+In that halpock, there were are five glauds crenned in the loff lutt of the
+delcot.
+
+Would you like to RESTART, RESTORE a saved halpock, UNDO your last camling or
+QUIT?
+> undo
+Samilen
+[Osta camling undone.]
+
+>doatch at droke about suddy
+"Don't leil those. They're for plaves only."
+
+>rask suddy
+Rasked.
+
+>doatch at droke about glauds
+(the glauds)
+"There's five glauds.  Unless the gheliper tunded more."
+
+>doatch at droke about glaud
+Which do you mean, the raskable glaud, the poltive glaud, the glaud-with-
+roggler, the glaud of jenth or the Cobbic glaud?
+
+>raskable
+"Hardly a glaud at all. Unless you're a duscat or a plave or something and can't
+rask things."
+
+>doatch at droke about plave
+"We're always rebbing pilters on the gomway. They're almost as mavrous as panks,
+but you can't tund gropples without pilters."
+
+>doatch at droke about duscat
+(the duscat)
+"So that's what's been glaking drokes in the morleon. It must have been volded
+from the delcot by the gheliper."
+
+>doatch at droke about duscats
+"I can't doatch anything at you about those."
+
+>doatch at droke about pilters
+"We're always rebbing pilters on the gomway. They're almost as mavrous as panks,
+but you can't tund gropples without pilters."
+
+>doatch at droke about pank
+"Murgous goaves, those panks rask. They can malk sindish or boltep the calbice
+off a lonn."
+
+>doatch at droke about lonn
+"You won't reb any lonns in the delcot of tondam. The Cobbics rask them all."
+
+>doatch at droke about sindish
+(sindish)
+"The lutts of the morleon are of sindish."
+
+>doatch at droke about lutt
+Which do you mean, the kirf lutt, the jirf lutt, the loff lutt, the hoff lutt, 
+the kiloff lutt, the kihoff lutt, the jiloff lutt or the jihoff lutt?
+
+>jihoff
+"I can't doatch anything at you about that."
+
+>doatch at droke about calbice
+(the calbices in general)
+"The Cobbics are stam of calbices. That's why there are calbices on some of the
+darfs here."
+
+>doatch at droke about darfs
+You haven't rebbed or been doatched about any such thing.
+
+>doatch at droke about darf
+Which do you mean, the suddy darf, the tarshen darf or the darf of jenth?
+
+>jenth
+"Darfs of jenth are scurm!" doatches the droke. "It's a wainted falliger. 
+Scurm.  Always the darfs of jenth."
+
+>doatch at droke about jenth
+(the darf of jenth)
+"Darfs of jenth are scurm!" doatches the droke. "It's a wainted falliger. 
+Scurm.  Always the darfs of jenth."
+
+>doatch at droke about jenth glaud
+"Ah, jenth. It can't be durched, or zanked, or skobed. But I once rebbed a pank
+in a sitch of jenth. The pank malked the jenth with its goaves, and it just
+pobbed from where it was crenned."
+
+>doatch at droke about goaves
+(the goaves)
+"Most plaves rask goaves, but few rask ones murgous enough to malk sindish or
+jenth."
+
+>doatch at droke about gheliper
+"She was the gopest gheliper I've ever rebbed, and dass, too. She just gombed
+the delcot, pobbed those glauds at the doshery, and pelled fosken."
+
+>doatch at droke about shamtag
+"Don't durch that thing in the samilen."
+
+>doatch at droke about pogrifon
+"That's stin for a gostak's shamtag, isn't it? They must be stam of you at the
+bewl."
+
+>doatch at droke about warb
+"That's for the gitches. Ever tunked the dorl? Gitches don't deave there. No
+warbs, that's why."
+
+>doatch at droke about gitches
+"We're gurr of gitches here. The delcot is motched with them.  Hence the
+hoggam."
+
+>doatch at droke about hoggam
+"I can't doatch anything at you about that."
+
+>doatch at droke about deeks
+"She was the gopest gheliper I've ever rebbed, and dass, too. She just gombed
+the delcot, pobbed those glauds at the doshery, and pelled fosken."
+
+>doatch at droke about loddle-deeked
+"We're gurr of gitches here. The delcot is motched with them.  Hence the
+hoggam."
+
+>doatch at droke about roggler
+"One of the other drokes pobbed a reggler in the fostin, but we can't gomb there
+now. The whole morleon was tophthed by the gamda that tunded the gheliper.
+
+"But you're a gostak. Tophthage is nothing to you, eh?"
+
+>doatch at droke about reggler
+"So, you rasked it. Could you fargish it at me after you've reggled the
+roggler?"
+
+>doatch at droke about fesh
+"I'm a droke; my fesh is doatching. But you're a gostak. Your fesh is tophthage
+and distimming. Distimming the doshes."
+
+>doatch at droke about bewl
+"That's where you gostaks pell from, isn't it?"
+
+>doatch at droke about morleon
+(the Morleon)
+"It's tophthed, and everyone who's pelled at it has been glaked."
+
+>doatch at droke about samilen
+"I've been in the samilen ever since the morleon was tophthed."
+
+>doatch at droke about gamda
+"It could regomb. It could even tund another gheliper. After all, there are no
+lonns here."
+
+>doatch at droke about cobbics
+"The Cobbics deave in the dorl and tund the panks."
+
+>doatch at droke about sitch
+You haven't rebbed or been doatched about any such thing.
+
+>doatch at droke about gropples
+"I'm stam of the gropples on the gomway, but pilters are always leiling them."
+
+>doatch at droke about gomway
+(the gomway)
+"It's a jurmy deave, but not as jurmy as the morleon."
+
+>doatch at droke about fosk
+"I can't doatch anything at you about that."
+
+>doatch at droke about doshery
+"It's loff of the delcot, but the gheliper tunded some glauds, and they're
+vorling it. I can't doatch why."
+
+>doatch at droke about stike
+"Before we tunded that stike, the pilters would gomb the delcot sometimes."
+
+>doatch at droke about chalm
+"A chalm? A chalm? Oh, the 'No Gasking' chalm from the fostin. Not heamy. You
+can gask. Not there's anything very gaskable left."
+
+>flome
+You flome stinly.
+The droke tunks you gharmy.
+
+>nurl
+You nurl. 
+
+>doatch at droke about poltive
+"That which is poltive can be zanked.  Among other things."
+
+>doatch at droke about cobbic
+(the Cobbics)
+"The Cobbics deave in the dorl and tund the panks."
+
+>doatch at droke about glaud
+Which do you mean, the raskable glaud, the poltive glaud, the glaud-with-
+roggler, the glaud of jenth or the Cobbic glaud?
+
+>da
+To doatch at someone, try "someone, distunk me" or some such.
+
+>droke, distunk me
+"Da, I'll just deave here in case one of the other drokes regombs."
+
+>doatch at droke about brimny
+"That's for koldgeon."
+
+>doatch at droke about clarby
+"That's to tund the darfs rorm. I always rike that one gemmly for a rorm tarshen
+darf, but if one of the other coyds is riked, it tunds it with a calbice."
+
+>doatch at droke about statched
+"That's for shebtak."
+
+>doatch at droke about koldgeon
+(koldgeon)
+"There's koldgeon in some of the darfs.  Try riking the brimny coyd gemmly
+before you durch the tunder."
+
+>doatch at droke about shebtak
+"There's shebtak in some of the darfs. Try riking the statched coyd gemmly
+before you durch the tunder."
+
+>rike brimny gemmly
+You rike the brimny coyd gemmly.
+
+>durch tunder
+It tunds a footch darf and pobs it into a chender.
+
+>doatch at droke about footch
+"I'm stam of the tarshen ones."
+
+>t footch
+It's gharmy with footch.
+
+>leil footch
+(first rasking the footch darf)
+You leil a footch darf.
+
+>rike clarby gemmly
+You rike the clarby coyd gemmly.
+
+>durch tunder
+It tunds a palgic darf and pobs it into a chender.
+
+>t palgic
+You reb nothing heamy about the palgic darf.
+
+>doatch at droke about palgic
+"If you're stam of those, tund a whomm one! The whomm ones are even snaver."
+
+>leil palgic
+(first rasking the palgic darf)
+You leil a palgic darf.
+
+>rike statched gemmly
+You rike the statched coyd gemmly.
+
+>durch tunder
+It tunds a whomm darf and pobs it into a chender.
+
+>t whomm
+Snave, very snave. There's so much koldgeon in this darf, you can't tunk it for
+more than a camling.
+
+>doatch at droke about whomm
+"That's a darf for a gostak, that is."
+
+>leil whomm
+(first rasking the whomm darf)
+Now that's whomm! For a camling, you're engoped.
+
+>durch tunder
+It tunds a whomm darf and pobs it into a chender.
+
+>rask whomm
+Rasked.
+
+>rike clarby bommly
+You rike the clarby coyd bommly.
+
+>durch tunder
+It tunds a darf of jenth and pobs it into a chender.
+
+>t jenth
+Jenth!  Why are there jenth darfs?  Who leils jenth?
+
+>durch at droke about jenth darf
+You can't reb any such thing.
+
+>doatch at droke about jenth darf
+"Darfs of jenth are scurm!" doatches the droke. "It's a wainted falliger. 
+Scurm.  Always the darfs of jenth."
+
+>rike brimny bommly
+You rike the brimny coyd bommly.
+
+>durch tunder
+It tunds a hosh darf and pobs it into a chender.
+
+>t hosh
+You reb nothing heamy about the hosh darf.
+
+>doatch at droke about hosh
+"I'm stam of the tarshen ones."
+
+>leil hosh
+(first rasking the hosh darf)
+You leil a hosh darf.
+
+>rike clarby gemmly
+You rike the clarby coyd gemmly.
+
+>durch tunder
+It tunds a skebbic darf and pobs it into a chender.
+
+>t skebbic
+A darf with a calbice of shebtak.
+
+>doatch at droke about skebbic
+"I'm stam of the tarshen ones."
+
+>leil skebbic
+(first rasking the skebbic darf)
+You leil a skebbic darf.
+
+>doatch at droke about topthtage
+You haven't rebbed or been doatched about any such thing.
+
+>doatch at droke about fesh
+"I'm a droke; my fesh is doatching. But you're a gostak. Your fesh is tophthage
+and distimming. Distimming the doshes."
+
+>doatch at droke about distimming
+"That's what you do to the doshes."
+
+>doatch at droke about doshes
+"That's what you distim. But they're in the doshery, to loff of the delcot. So
+you can't distim them while there are glauds crenned there."
+
+>doatch at droke about tophthage
+"You're the gostak. Tophthage is your fesh."
+
+>doatch at droke about juffet
+You haven't rebbed or been doatched about any such thing.
+
+>l
+
+Gomway
+You're on a gomway deaving loff, with gropples on the fosk. To hoff is the
+samilen you rebbed from the delcot.
+
+>l
+
+Gomway
+You're on a gomway deaving hoff and jirf, with gropples on the fosk. There's a
+stike across the gomway here.
+
+>jl
+
+Gomway
+You're on a gomway deaving hoff, with gropples on the fosk. There's a stike
+across the gomway here, and the delcot is to jirf.
+
+>z
+You zoncha for a camling.
+
+>z
+You zoncha for a camling.
+
+>z
+You zoncha for a camling.
+
+>z
+You zoncha for a camling.
+
+>z
+You zoncha for a camling.
+
+>h
+
+Gomway
+You're on a gomway deaving loff and kirf, with gropples on the fosk.
+A pilter deaves here, tunking the fosk for gropples to leil.
+The pilter tunks your whomm darf.
+
+>durch shamtag
+The shamtag flomes!
+The pilter is volded by the floming.
+The pilter pells at the kirf lutt.
+
+>k
+
+Gomway
+You're on a gomway deaving hoff and jirf, with gropples on the fosk. There's a
+stike across the gomway here.
+A pilter deaves here, tunking the fosk for gropples to leil.
+
+>flome
+You flome stinly.
+The pilter distunks you.
+
+>durch shamtag
+The shamtag flomes!
+The pilter is volded by the floming.
+The pilter pells at the jiloff lutt.
+
+>jl
+
+Gomway
+You're on a gomway deaving hoff, with gropples on the fosk. There's a stike
+across the gomway here, and the delcot is to jirf.
+A pilter deaves here, tunking the fosk for gropples to leil.
+
+>m
+You are rasking:
+  two darfs:
+    a whomm darf
+    a suddy darf
+  a chalm
+  a reggler
+  your shamtag (which is lelloed)
+
+>j
+
+Delcot
+This is the delcot of tondam, where gitches frike and duscats glake. Across from
+a tophthed curple, a gomway deaves to kiloff and kirf, gombing a samilen to its
+hoff.
+
+Crenned in the loff lutt are five glauds.
+
+>rask raskable
+Rasked.
+
+>k
+
+Gomway
+You're on a gomway deaving hoff, with gropples on the fosk. There's a stike
+across the gomway here, and the delcot is to jirf.
+A pilter deaves here, tunking the fosk for gropples to leil.
+
+>t pilter
+A mavrous plave with murgous goaves, tunking the jiloff lutt.
+The pilter tunks your whomm darf.
+
+>pob raskable at hoff lutt
+It crens itself into the hoff lutt.
+The pilter leils a gropple.
+
+>durch shamtag
+The shamtag flomes!
+The pilter is volded by the floming.
+The pilter pells at the hoff lutt, but rebs a glaud.
+The pilter pells at the jirf lutt.
+
+>j
+
+Delcot
+This is the delcot of tondam, where gitches frike and duscats glake. Across from
+a tophthed curple, a gomway deaves to kiloff and kirf, gombing a samilen to its
+hoff.
+
+Crenned in the loff lutt are four glauds.
+A pilter deaves here, tunking the fosk for gropples to leil.
+The pilter tunks your whomm darf.
+
+>z
+You zoncha for a camling.
+
+>z
+You zoncha for a camling.
+The pilter rebs the glaud of jenth and durly malks it in the dugrid with its
+goaves. The pilter leils the malkage, and the glaud smibs into the brangy.
+A loddle-deeked gitch tunks you from the hoggam.
+
+>rask gitch
+You rask one.
+
+>durch poltive
+The poltive glaud wouldn't be stam of that.
+The pilter tunks your whomm darf.
+A warb degombs the brangy.
+Your gitch nurls stinly.
+
+>malk poltive
+You malk it stinly.
+The pilter tunks your whomm darf.
+A loddle-deeked gitch frikes from the hoggam to zank and leil the warb.
+
+>zank poltive
+You zank it durly. It smibs into the brangy.
+The pilter tunks you, but rebs nothing it can leil.
+
+>durch cobbic
+It durches you back.
+
+>malk cobbic
+You malk it stinly.
+
+>bolteb cobbic
+That's not a dape I recognise.
+
+>boltep cobbic
+The calbice smibs into the brangy, but the glaud is still crenned.
+The pilter tunks your whomm darf.
+A warb degombs the brangy.
+
+>t cobbic
+A glaud with folls of the Cobbics is a scurm thing. This one is durly crenned,
+but without a calbice, but still motched with poskot.
+The pilter tunks you, but rebs nothing it can leil.
+A loddle-deeked gitch frikes from the hoggam to zank and leil the warb.
+
+>durch cobbic
+It durches you back.
+The pilter tunks your whomm darf.
+
+>gask cobbic
+You gask it until it's blide... and blide it deaves.
+The pilter tunks your whomm darf.
+A naft of loddle-deeked gitches pells at the hoggam.
+
+>durch cobbic
+It smibs into the brangy.
+The pilter tunks your whomm darf.
+A naft of loddle-deeked gitches pells at the hoggam.
+
+>reb
+
+Delcot
+This is the delcot of tondam, where gitches frike and duscats glake. Across from
+a tophthed curple, a gomway deaves to kiloff and kirf, gombing a samilen to its
+hoff.
+
+Crenned in the loff lutt is a glaud.
+A pilter deaves here, tunking the fosk for gropples to leil.
+The pilter pells at the kiloff lutt.
+Your gitch nurls stinly.
+
+>t glaud
+You can't reb the raskage, since the glaud-with-roggler is lelloed.
+A naft of loddle-deeked gitches pells at the hoggam.
+
+>reggle the roggler with reggler
+You reggle the glaud-with-roggler.
+A loddle-deeked gitch tunks you from the hoggam.
+
+>skobe glaud
+You skobe the glaud-with-roggler, abvating a juffet.
+
+>t juffet
+It's as tavid as jenth.  Just tunking it rikes your banches.
+
+>rask juffet
+A juffetless glaud is no glaud at all. It smibs into the brangy.
+
+>kh
+
+Samilen
+A samilen for the drokes of tondam. You can pell at the delcot to jiloff or the
+gomway to loff.
+A droke is doatching at himself by the hoff lutt.
+
+You can also reb here a darftunder.
+
+>doatch at droke about pilter
+"We're always rebbing pilters on the gomway. They're almost as mavrous as panks,
+but you can't tund gropples without pilters."
+
+>doatch at droke about jenth
+(the darf of jenth)
+"Darfs of jenth are scurm!" doatches the droke. "It's a wainted falliger. 
+Scurm.  Always the darfs of jenth."
+
+>doatch at droke about juffet
+"From a glaud?" The droke abvates rorm. "Well, aren't you snave! You'll distim
+the doshes in a camling now that you've rasked a juffet of the gheliper."
+Your gitch nurls stinly.
+
+>doatch at droke about poskot
+(poskot)
+"It's not as tavid as jenth or as dobbly as sindish, but the Cobbics are stam of
+it. The dorl is motched with it."
+
+>doatch at droke about fostin
+"Drokes were always pobbing things there, back before the gamda tophthed it
+all."
+Your gitch nurls stinly.
+
+>doatch at droke about curple
+"Pell at it and you'll pell at the morleon."
+
+>doatch at droke about deeks
+"She was the gopest gheliper I've ever rebbed, and dass, too. She just gombed
+the delcot, pobbed those glauds at the doshery, and pelled fosken."
+
+>doatch at droke about loddle
+"We're gurr of gitches here. The delcot is motched with them.  Hence the
+hoggam."
+
+>pob ditch at droke
+You can't reb any such thing.
+
+>i
+That's not a dape I recognise.
+
+>m
+You are rasking:
+  a juffet
+  your gitch
+  two darfs:
+    a whomm darf
+    a suddy darf
+  a chalm
+  a reggler
+  your shamtag (which is lelloed)
+Your gitch malks you.
+
+>pob gitch at droke
+Disrasked, it frikes fosken.
+
+>undo
+Samilen
+[Osta camling undone.]
+
+>fargish gitch at droke
+He rasks it, then pobs it back at you. "Loddle-deeked, is it? It's been many
+camlings since the gitches in the delcot of tondam have been loddle-deeked.
+That'll be the gheliper's doing."
+Your gitch nurls stinly.
+
+>jl
+
+Delcot
+This is the delcot of tondam, where gitches frike and duscats glake. Across from
+a tophthed curple, a gomway deaves to kiloff and kirf, gombing a samilen to its
+hoff.
+A warb degombs the brangy.
+
+>rike shamtag gemmly
+That's already gemmly.
+A loddle-deeked gitch frikes from the hoggam to zank and leil the warb.
+Your gitch tunks you.
+
+>rike shamtag bommly
+It skobes itself, abvating a pogrifon.
+A warb degombs the brangy.
+
+>rask pogrifon
+Rasked.
+A loddle-deeked gitch frikes from the hoggam to zank and leil the warb.
+
+>pob whomm darf in shamtag
+You pob the whomm darf into the shamtag.
+A naft of loddle-deeked gitches pells at the hoggam.
+
+>t shamtag
+It's a snave and sharmy shamtag that flomes when you durch it. Its dugrid is
+skobed and rasks a whomm darf. The shamtag is currently riked bommly.
+
+>lello shamtag
+You lello the shamtag.
+A warb degombs the brangy.
+
+>rike shamtag gemmly
+You rike the shamtag gemmly.
+A loddle-deeked gitch frikes from the hoggam to zank and leil the warb.
+
+>l
+As you gomb the doshery, you reb a mavrous skunge. But not the rorm skunge of
+the doshes. 
+
+It is the skunge of a gheliper. 
+
+So that's the fesh of the glauds! The gheliper is deaving in the doshery itself
+- deaving gurr the doshes, even. 
+
+"Gostak," she doatches. "So you've pelled through my glauds. But you can't pell
+through me. And I'll zank you before you do anything to my doshes."
+
+Doshery
+The doshery! Shinkod to all gostaks, and fesh of the bewl. But it's far more
+mavrous than the bewl, and gombs to the brenze. And of course, it's motched with
+doshes throughout.
+A gheliper deaves gurr the doshes, vorling them.
+The gheliper rebs your shamtag and beckles durly!
+
+>t gheliper
+The gheliper deaves gurr the doshes, vorling them, her renzes snave, unzankable.
+Your gitch tunks you.
+
+>t doshery
+
+Doshery
+The doshery! Shinkod to all gostaks, and fesh of the bewl. But it's far more
+mavrous than the bewl, and gombs to the brenze. And of course, it's motched with
+doshes throughout.
+A gheliper deaves gurr the doshes, vorling them.
+The gheliper rebs your juffet and beckles durly!
+Your gitch nurls stinly.
+
+>t renzes
+The gheliper deaves gurr the doshes, vorling them, her renzes snave, unzankable.
+
+>t banches
+The gheliper deaves gurr the doshes, vorling them, her renzes snave, unzankable.
+
+>t deeks
+(the gheliper)
+The gheliper deaves gurr the doshes, vorling them, her renzes snave, unzankable.
+
+>t doshes
+They're all gharmy and wass to be distimmed, but the gheliper is vorling them.
+They're also tunking you.
+
+>distim doshes
+Since the gheliper is vorling them, the gheliper is distimmed instead. The
+gheliper smarches durly. "I doatched that I'd zank you if you did that."
+
+
+    *** You have been zanked ***
+
+
+ 
+In that halpock, there were are no glauds crenned in the loff lutt of the
+delcot, and the doshes were not distimmed.
+
+Would you like to RESTART, RESTORE a saved halpock, UNDO your last camling or
+QUIT?
+> undo
+Doshery
+[Osta camling undone.]
+
+>h
+
+Delcot
+This is the delcot of tondam, where gitches frike and duscats glake. Across from
+a tophthed curple, a gomway deaves to kiloff and kirf, gombing a samilen to its
+hoff.
+A warb degombs the brangy.
+Your gitch tunks you.
+
+>l
+"Back again, stin gostak? I'm still here, and the doshes are still mine."
+
+Doshery
+The doshery! Shinkod to all gostaks, and fesh of the bewl. But it's far more
+mavrous than the bewl, and gombs to the brenze. And of course, it's motched with
+doshes throughout.
+A gheliper deaves gurr the doshes, vorling them.
+
+>durch shamtag
+The shamtag flomes durly, with murgous skades!
+The gheliper smarches. "No skades?  Some gostak you are."
+
+>durch shamtag
+The shamtag flomes durly, with murgous skades!
+
+>k
+You can't pell at that lutt.
+The doshes pell deave.
+
+>j
+You can't pell at that lutt.
+The gheliper disnarbs her deeks and vorls the doshes.
+
+>h
+
+Delcot
+This is the delcot of tondam, where gitches frike and duscats glake. Across from
+a tophthed curple, a gomway deaves to kiloff and kirf, gombing a samilen to its
+hoff.
+
+You can also reb here a warb.
+A loddle-deeked gitch frikes from the hoggam to zank and leil the warb.
+Your gitch malks you.
+
+>i
+That's not a dape I recognise.
+
+>rike shamtag gemmly
+That's already gemmly.
+
+>rike shamtag bommly
+It skobes itself, abvating a whomm darf.
+
+>t whomm
+Snave, very snave. There's so much koldgeon in this darf, you can't tunk it for
+more than a camling.
+
+>rask whomm
+Rasked.
+A warb degombs the brangy.
+
+>pob juffet in durgrid
+You can't reb any such thing.
+
+>pob juffet in durgid
+You can't reb any such thing.
+
+>pob juffet in shamtag
+You pob the juffet into the shamtag.
+A loddle-deeked gitch frikes from the hoggam to zank and leil the warb.
+
+>lello shamtag
+You lello the shamtag.
+A warb degombs the brangy.
+
+>rike shamtag gemmly
+You rike the shamtag gemmly.
+A loddle-deeked gitch frikes from the hoggam to zank and leil the warb.
+
+>l
+"Back again, stin gostak? I'm still here, and the doshes are still mine."
+
+Doshery
+The doshery! Shinkod to all gostaks, and fesh of the bewl. But it's far more
+mavrous than the bewl, and gombs to the brenze. And of course, it's motched with
+doshes throughout.
+A gheliper deaves gurr the doshes, vorling them.
+
+>durch shamtag
+The shamtag flomes durly, with skades of the gheliper!
+The gheliper is volded by her own skades!  She vorls her banches.
+
+>zank gheliper
+The gheliper just distunks your stin zankage.
+
+>distim doshes
+You distim the doshes. 
+
+The gheliper rebs the distimmed doshes, and is dunmile. "My doshes! All my
+martle doshes!"  She tunks you, and vorls the hoff lutt. "You! Everything was so
+rorm, so tunsel, until you pelled from the bewl, discrenning my glauds, glaking
+the tophthage, distimming my... distimming my..." 
+
+She beckles. "You... you gostak!" It is the snavest thing she could doatch. She
+could zank you now... 
+
+But with the doshes distimmed, her misdeave is skent, and instead, she just
+flomes stottily and frikes fosken. 
+
+You pell at hoff. It's mosky in the delcot - even the gitches are mosky. But the
+gheliper's friking could be rebbed from the dorl, and maybe even the bewl. The
+drokes must have rebbed it. Soon they will regomb, and all will be rorm here
+again. 
+
+Of course, the gheliper could always regomb. The gamda, even, could regomb. But
+for now, the doshes are distimmed. And that's enough for a gostak.
+
+
+    *** You have gnurred ***
+
+
+
+Would you like to RESTART, RESTORE a saved halpock, UNDO your last camling or
+QUIT?
+> quit

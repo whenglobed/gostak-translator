@@ -1,0 +1,109 @@
+podly : loudly? clearly?
+statch : cover? line? fill? build?
+gask : squeeze? Can gask pretty much any inanimate thing. But NOT alive things. Maybe "change" ?
+  The droke says "Not there's anything very gaskable left." which implies that most things aren't REALLY gaskable even if you get a "disgasks" response. Maybe that's like "resists."
+blide : "fully charged"
+dobbly : nice, fancy?
+chalm : sign?
+musny : message?
+skunge: smell, or similarly detectable
+hoggam: hole, not necessarily a structure?
+contail : gather?
+naft : group, but may be specific to gitches
+dunmile : stupid? crazy? injured?
+sloagy : easy? common?
+mavrous : fearsome? massive?
+plave : animal? beast?
+pashual: record? script?
+sharmy: stylish? "A snave and sharmy shamtag."
+sitch: area, but may be specific to jenth
+fosken : away instead of upward? The gitches "frike fosken" but the gheliper "pelled fosken." I guess they both have wings...
+tunsel: perfect? "Everything was so rorm, so tunsel..."
+
+Everything was so rorm, so tunsel,...
+The shamtag flomes stottily, as if the glaud in its dugrid were vorling its juffet.
+The gheliper deaves gurr the doshes, vorling them. // Since the gheliper is vorling them, the gheliper is distimmed instead.
+Darfs of jenth are scurm! It's a wainted falliger.
+jurmy adj. pleasant? : "[The gomway] is a jurmy deave, but not as jurmy as the morleon."
+[The doshes are] wass to be distimmed. Pell at the doshery! This is your fesh!
+Shinkod to all gostaks, and fesh of the bewl.
+brenze n. ? : "[The doshery is] far more mavrous than the bewl, and gombs to the brenze."
+brimny adj. ? [one of the coyds. Is brimny a specific color or shape?]
+clarby adj. ? [one of the coyds. Is clarby a specific color or shape?]
+nayfe n. layer? type? inch? : six nayfes of jenth
+lonn : "It could regomb. It could even tund another gheliper. After all, there are no lonns here."
+tobrit: weapon? "You don't need a tobrit to kill a glaud."
+sweff : fit? match? "That doesn't seem to sweff the roggler."
+lurpid : common? "A lurpid warb of the brangy."
+
+GREEN: creatures that have no translation. Use original names.
+BLUE: places, objects, and substances that have no translation. Use original names.
+YELLOW: words that are arbitrary and only have relative meaning, such as cardinal directions. Also bommly/gemmly?
+PINK: objects which have a vague translation, but are lacking contexts and specifics. "tobrit," for example, is something that helps with zanking, so it's a weapon, but that's an entire category and not a specific object. "plave" seems to mean animal, but not every living thing. "durch" and "gask" also belong here.
+RED: Guesses.
+
+
+IDIOMS:
+pell deave : stay in place
+pell can also mean "stay?"
+
+OBJECTS:
+foll "A glaud with folls of the Cobbics is a scurm thing."
+lonn
+reeg
+darf
+gropple
+chuld
+geln
+potchner
+juffet
+pogrifon
+fack
+drague
+koshle
+
+MATERIALS:
+poskot
+jenth
+sindish. "paided sindish?"
+koldgeon
+shebtak
+
+CREATURES:
+tendo
+droke
+duscat
+gitch
+warb
+pank
+pilter
+gheliper
+gamda
+plave
+
+PLACES:
+mosteg
+samilen
+morleon
+fostin
+bewl
+dorl
+
+SETTINGS:
+gemmly : positive
+bommly : negative
+
+ARBITRARY:
+gask : charge
+disgask : discharge
+blide : full?
+
+DIRECTIONS (arbitrary):
+loff : north
+jiloff : northeast
+jirf : east
+jihoff : southeast
+hoff : south
+kihoff : southwest
+hoff : west
+kiloff : northwest
