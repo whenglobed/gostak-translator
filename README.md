@@ -8,6 +8,7 @@ http://ifdb.tads.org/viewgame?id=w5s3sv43s3p98v45
 
 #### Usage:
 Run "GostakTranslator.jar". The "gostak_dictionary.txt" file must be in the same directory as "GostakTranslator.jar".
+When using the "Translate File" option, target files should be in .txt or .log format.
 
 #### Sample Gostakian Text:
 "Finally, here you are. At the delcot of tondam, where doshes deave. But the doshery lutt is crenned with glauds.
