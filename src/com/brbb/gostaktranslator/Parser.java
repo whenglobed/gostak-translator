@@ -24,14 +24,14 @@ public class Parser {
      * 
      * @param input the String to be parsed and translated
      * @param outputPane the JTextPane for the translated output
-     * @param dictFileName the filename for the dictionary
+     * @param dictionary the Dictionary to use for translation
      */
-    public Parser(String input, JTextPane outputPane, String dictFileName) {
+    public Parser(String input, JTextPane outputPane, Dictionary dictionary) {
         inputType = "string";
                 
         sc = new Scanner(input);
         this.outputPane = outputPane;
-        dictionary = new Dictionary(dictFileName);
+        this.dictionary = dictionary;
         initializeSuffixes();
     }
     
@@ -42,15 +42,15 @@ public class Parser {
      * 
      * @param inputFileName the filename for the input text
      * @param outputFileName the filename for the output file
-     * @param dictFileName the filename for the dictionary
+     * @param dictionary the Dictionary to use for translation
      */
-    public Parser(String inputFileName, String outputFileName, String dictFileName) {
+    public Parser(String inputFileName, String outputFileName, Dictionary dictionary) {
         try {
             inputType = "file";
             
             sc = new Scanner(new FileInputStream(inputFileName), "UTF-8");
             outfile = new PrintWriter(outputFileName, "UTF-8");
-            dictionary = new Dictionary(dictFileName);
+            this.dictionary = dictionary;
             initializeSuffixes();
         }
         catch (IOException exc) {

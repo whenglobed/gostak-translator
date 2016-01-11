@@ -4,6 +4,7 @@ import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 
 import javax.swing.BoxLayout;
@@ -21,8 +22,7 @@ import javax.swing.filechooser.FileNameExtensionFilter;
 /**
  * GUI for the Gostak Translator.
  * 
- * @author Alex Johnson
- * @version 1.0, 12/27/2015
+ * @version 1.1.0, 01/10/2015
  */
 public class TranslatorGui implements ActionListener {
     private static final String DEFAULT_DICTIONARY_FILE = "gostak_dictionary.txt";
@@ -122,8 +122,18 @@ public class TranslatorGui implements ActionListener {
         String command = e.getActionCommand();
         if (command.equals("Translate Text")) {
             String input = inputText.getText();
-            Parser p = new Parser(input, outputText, dictFileName);
-            p.parse();
+            try {
+                Dictionary dictionary = new Dictionary(dictFileName);
+                Parser p = new Parser(input, outputText, dictionary);
+                p.parse();
+            }
+            catch (IOException exc) {
+                String errorMessage = "Could not load dictionary file \"" + dictFileName + "\"";
+                JOptionPane.showMessageDialog(mainWindow, errorMessage,
+                        "Translation Failed", JOptionPane.WARNING_MESSAGE);
+                exc.printStackTrace(); // LOG
+            }
+            
         }
         else if (command.equals("Translate File")) {
             translateFile();
@@ -140,7 +150,7 @@ public class TranslatorGui implements ActionListener {
      */
     private void translateFile() {
         try {
-            JFileChooser fileChooser = new JFileChooser(System.getProperty("java.class.path")) {
+            JFileChooser fileChooser = new JFileChooser(System.getProperty("user.dir")) {
                 private static final long serialVersionUID = 1L; // default ID
 
                 // Prompts the user before overwriting an existing file
@@ -171,7 +181,12 @@ public class TranslatorGui implements ActionListener {
             fileChooser.setFileFilter(filter);
 
             if (fileChooser.showDialog(mainWindow, "Translate File") == JFileChooser.APPROVE_OPTION) {
-                String inputFileName = fileChooser.getSelectedFile().getCanonicalPath();
+                File inFile = fileChooser.getSelectedFile();
+                if (!inFile.exists()) {
+                    throw new FileNotFoundException(inFile.getCanonicalPath());
+                }
+                
+                String inputFileName = inFile.getCanonicalPath();
                 fileChooser.setDialogTitle("Save output file");
                 fileChooser.setSelectedFile(new File(DEFAULT_OUTPUT_FILE));
                 try {
@@ -182,13 +197,29 @@ public class TranslatorGui implements ActionListener {
                 }
                 if (fileChooser.showSaveDialog(mainWindow) == JFileChooser.APPROVE_OPTION) {
                     String outputFileName = fileChooser.getSelectedFile().getCanonicalPath();
-                    Parser p = new Parser(inputFileName, outputFileName, dictFileName);
-                    p.parse();
+                    
+                    try {
+                        Dictionary dictionary = new Dictionary(dictFileName);
+                        Parser p = new Parser(inputFileName, outputFileName, dictionary);
+                        p.parse();
+                    }
+                    catch (IOException exc) {
+                        String errorMessage = "Could not open dictionary file \""
+                                + dictFileName + "\"";
+                        JOptionPane.showMessageDialog(mainWindow, errorMessage,
+                                "Translation Failed", JOptionPane.WARNING_MESSAGE);
+                    }
                 }
             }
         }
         catch (IOException exc) {
+            String errorMessage = "Error opening file: " + exc.getMessage();
+            JOptionPane.showMessageDialog(mainWindow, errorMessage,
+                    "Translation Failed", JOptionPane.WARNING_MESSAGE);
             exc.printStackTrace(); // LOG
         }
     }
+    
 }
+
+
