@@ -32,3 +32,6 @@ considerations for plurals and suffixes, but otherwise does not try to determine
 tense, or other linguistic analysis. Word meanings were chosen with an attempt for them to make sense in
 most use cases, but for words like "deave" which can mean "exist", "stay", or "location" in various contexts,
 translation will occasionally be awkward until I make the parser more sophisticated.
+
+#### Special Thanks:
+Special thanks to David Welbourn, whose notes on the game helped fill gaps in my own: http://www.plover.net/~davidw/gostak.html
