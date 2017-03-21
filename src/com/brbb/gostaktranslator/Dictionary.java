@@ -17,7 +17,6 @@ public class Dictionary {
      * 
      * @param dictFileName the input filename for the dictionary word mappings
      * @throws IOException
-     * 
      */
     public Dictionary(String dictFileName) throws IOException {
         map = new HashMap<String, String>(DEFAULT_CAPACITY, DEFAULT_LOAD);
