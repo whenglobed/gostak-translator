@@ -99,7 +99,7 @@ public class Parser {
           
                 t.gostakian = t.gostakian.toLowerCase();
     
-                // Attempt to find the token into the dictionary.
+                // Attempt to find the token in the dictionary.
                 if (dictionary.translate(t.gostakian) != null) {
                     t.english.append(dictionary.translate(t.gostakian));
                     wasTranslated = true;

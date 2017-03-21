@@ -1,0 +1,2 @@
+# Packages -- executable .jar files should go under Releases instead
+*.jar
