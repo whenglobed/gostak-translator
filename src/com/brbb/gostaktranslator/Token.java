@@ -3,6 +3,8 @@ package com.brbb.gostaktranslator;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import com.brbb.gostaktranslator.Definition.Category;
+
 /**
  * Groups metadata about the token and the token strings to be operated on.
  */
@@ -12,6 +14,7 @@ final class Token {
     StringBuilder endPunct = new StringBuilder();
     StringBuilder english = new StringBuilder();
     StringBuilder suffix = new StringBuilder();
+    Category category;
     boolean hasFirstCapital;
     boolean hasBeginPunct;
     boolean hasEndPunct;

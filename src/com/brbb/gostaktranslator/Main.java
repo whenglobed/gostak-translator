@@ -6,6 +6,7 @@ package com.brbb.gostaktranslator;
  * @author Alex Johnson
  * @version 1.1, 03/21/2017
  * 
+ * TODO: colorize GUI output based on word category.
  */
 public class Main {
 

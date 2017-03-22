@@ -89,6 +89,7 @@ public class Parser {
             Scanner lineScanner = new Scanner(sc.nextLine());
             while (lineScanner.hasNext()) {
                 Token t = new Token();
+                Definition d = null;
                 boolean wasTranslated = false;
     
                 // Get next token.
@@ -100,8 +101,10 @@ public class Parser {
                 t.gostakian = t.gostakian.toLowerCase();
     
                 // Attempt to find the token in the dictionary.
-                if (dictionary.translate(t.gostakian) != null) {
-                    t.english.append(dictionary.translate(t.gostakian));
+                d = dictionary.translate(t.gostakian);
+                if (d != null) {
+                    t.english.append(d.translation);
+                    t.category = d.category;
                     wasTranslated = true;
                 }
                 if (!wasTranslated) {
@@ -117,10 +120,13 @@ public class Parser {
                             
                             while (!wasTranslated && trimmed.length() > 1) {
                                 trimmed.deleteCharAt(trimmed.length() - 1);
-                                if (dictionary.translate(trimmed.toString()) != null) {
-                                    t.english.append(dictionary.translate(trimmed.toString()));
+                                
+                                d = dictionary.translate(trimmed.toString());
+                                if (d != null) {
+                                    t.english.append(d.translation);
                                     t.hasSuffix = true;
                                     t.suffix = new StringBuilder(suffix);
+                                    t.category = d.category;
                                     wasTranslated = true;
                                 }
                             }

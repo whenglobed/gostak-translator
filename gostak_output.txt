@@ -19,7 +19,7 @@ south.
 Stick'd in the north exit are five glauds.
 
 >t gitches
-They exist in the hoggam and fly out to kill warbs.
+They exist in the nest and fly out to kill warbs.
 
 >t entryway
 It's the entryway of a morleon.
@@ -29,7 +29,7 @@ You'll have to move at it before you can examine it.
 
 >t samilen
 You'll have to move at it before you can examine it.
-A group of gitches moves at the hoggam.
+A group of gitches moves at the nest.
 
 >t exit
 Which do you mean, the west exit, the east exit, the north exit, the south exit,
@@ -44,9 +44,9 @@ Which do you mean, the hold-able glaud, the alive glaud, the glaud-with-
 lock-er, the glaud of jenth or the Cobbic glaud?
 
 >t hold-able
-A hold-able glaud is about as useless as a darf of jenth, but at least it can
+A hold-able glaud is about as useless as a food of jenth, but at least it can
 protect the doshery from the gitches.
-A gitch flies from the hoggam to kill and eat the warb.
+A gitch flies from the nest to kill and eat the warb.
 
 >t alive
 It's weak, but it's still alive.
@@ -58,12 +58,12 @@ A warb exits the ground.
 >t jenth
 The largest of the glauds, it exists near the north exit: six nayfes of jenth, all
 bad and hard.
-A gitch flies from the hoggam to kill and eat the warb.
+A gitch flies from the nest to kill and eat the warb.
 
 >t cobbic
 A glaud with folls of the Cobbics is a awful thing. This one is strong-ly stick'd,
 with a shell of poskot.
-A gitch examines you from the hoggam.
+A gitch examines you from the nest.
 
 >t shell
 A glaud with folls of the Cobbics is a awful thing. This one is strong-ly stick'd,
@@ -79,7 +79,7 @@ That doesn't seem to match the lock-er.
 >use shamtag
 The shamtag sounds!
 The group of gitches are frighten'd by the sound-ing and move exist.
-A group of gitches moves at the hoggam.
+A group of gitches moves at the nest.
 
 >t shamtag
 It's a good and sharmy shamtag that sounds when you use it. Its top is
@@ -90,7 +90,7 @@ What do you want to set negative?
 
 >shamtag
 It opens itself, reveal-ing a pogrifon.
-A gitch examines you from the hoggam.
+A gitch examines you from the nest.
 
 >x pogrifon
 That's not a verb I recognise.
@@ -102,13 +102,13 @@ A warb exits the ground.
 
 >brighten self
 Brighten'd.
-A gitch flies from the hoggam to kill and eat the warb.
+A gitch flies from the nest to kill and eat the warb.
 
 >j
 Are you sure you want to move at the darken'd entryway? yes
 
 Morleon
-This is the morleon where the drokes contail - or did, until it was darken'd.
+This is the morleon where the drokes live - or did, until it was darken'd.
 The canopy and the exits are all of paided sindish. A fostin is in the northeast
 exit.
 A duscat shudders west and east across the ground.
@@ -117,7 +117,7 @@ A duscat shudders west and east across the ground.
 It's hardly large, but it could attack you still. It's beckling west and east and
 whine-ing.
 >whine
-You whine. The duscat whines more podly for a minute:
+You whine. The duscat whines more clear-ly for a minute:
 "duh kuh too... duh toh ker... ka te..."
 Is there use or purpose in that?
 The duscat whines.
@@ -160,7 +160,7 @@ You can't move at that exit.
 >kh
 
 Morleon
-This is the morleon where the drokes contail - or did, until it was darken'd.
+This is the morleon where the drokes live - or did, until it was darken'd.
 The canopy and the exits are all of paided sindish. A fostin is in the northeast
 exit.
 A duscat shudders west and east across the ground.
@@ -197,7 +197,7 @@ A warb exits the ground.
 Hold'd.
 
 >t warb
-A lurpid warb of the ground.
+A common warb of the ground.
 
 >drop warb
 It enters the ground.
@@ -209,12 +209,12 @@ You hold one.
 (the gitch)
 Hold-ing it, you can detect its deeks. They're loddled, so it's a loddle-deeked
 gitch. The rest of the group will be loddle-deeked too.
-A loddle-deeked gitch examines you from the hoggam.
+A loddle-deeked gitch examines you from the nest.
 
 >drop gitch
 (the gitch)
 Drop'd, it flies away.
-A group of loddle-deeked gitches moves at the hoggam.
+A group of loddle-deeked gitches moves at the nest.
 
 >kl
 
@@ -272,30 +272,30 @@ A samilen for the drokes of tondam. You can move at the delcot to northeast or t
 path to north.
 A droke is speak-ing at himself by the south exit.
 
-You can also detect here a darf-creater.
+You can also detect here a food-creater.
 
->t darf-creater
-It's a jeddy-paided darf-creater with three selectors. The brimny selector is set'd
+>t food-creater
+It's a jeddy-paided food-creater with three selectors. The brimny selector is set'd
 negative, the clarby selector is set'd positive, and the statched selector is set'd negative.
-Its receptacle holds a tarshen darf.
+Its receptacle holds a tarshen food.
 
 >eat tarshen
-(first hold-ing the tarshen darf)
-You eat a tarshen darf.
+(first hold-ing the tarshen food)
+You eat a tarshen food.
 
 >set clarby negative
 You set the clarby selector negative.
 
->use darf-creater
-It creates a suddy darf and drops it into a receptacle.
+>use food-creater
+It creates a suddy food and drops it into a receptacle.
 
 >t suddy
 It's not eat-able by gostaks, but you could drop it at a pank if you detect one.
 
 >eat suddy
-(first hold-ing the suddy darf)
-Ignore-ing the droke's speak, you eat a suddy darf. But suddy darfs are only
-for pilters and panks, not dunmile gostaks. Within a minute, you dissolve into the
+(first hold-ing the suddy food)
+Ignore-ing the droke's speak, you eat a suddy food. But suddy foods are only
+for pilters and panks, not sick gostaks. Within a minute, you dissolve into the
 ground.
 
 
@@ -367,22 +367,22 @@ the northwest exit, the southwest exit, the northeast exit or the southeast exit
 >speak at droke about shell
 (the shells in general)
 "The Cobbics are fond of shells. That's why there are shells on some of the
-darfs here."
+foods here."
 
->speak at droke about darfs
+>speak at droke about foods
 You haven't detect'd or been speak'd about any such thing.
 
->speak at droke about darf
-Which do you mean, the suddy darf, the tarshen darf or the darf of jenth?
+>speak at droke about food
+Which do you mean, the suddy food, the tarshen food or the food of jenth?
 
 >jenth
-"Darfs of jenth are awful!" speaks the droke. "It's a wainted falliger.
-Awful. Always the darfs of jenth."
+"Foods of jenth are awful!" speaks the droke. "It's a waint'd falliger.
+Awful. Always the foods of jenth."
 
 >speak at droke about jenth
-(the darf of jenth)
-"Darfs of jenth are awful!" speaks the droke. "It's a wainted falliger.
-Awful. Always the darfs of jenth."
+(the food of jenth)
+"Foods of jenth are awful!" speaks the droke. "It's a waint'd falliger.
+Awful. Always the foods of jenth."
 
 >speak at droke about jenth glaud
 "Ah, jenth. It can't be use'd, or kill'd, or open'd. But I once detect'd a pank
@@ -411,9 +411,9 @@ warbs, that's why."
 
 >speak at droke about gitches
 "We're near of gitches here. The delcot is cover'd with them. Hence the
-hoggam."
+nest."
 
->speak at droke about hoggam
+>speak at droke about nest
 "I can't speak anything at you about that."
 
 >speak at droke about deeks
@@ -422,7 +422,7 @@ the delcot, drop'd those glauds at the doshery, and move'd away."
 
 >speak at droke about loddle-deeked
 "We're near of gitches here. The delcot is cover'd with them. Hence the
-hoggam."
+nest."
 
 >speak at droke about lock-er
 "One of the other drokes drop'd a unlock-er in the fostin, but we can't enter there
@@ -507,26 +507,26 @@ To speak at someone, try "someone, ignore me" or some such.
 "That's for koldgeon."
 
 >speak at droke about clarby
-"That's to create the darfs nice. I always set that one positive for a nice tarshen
-darf, but if one of the other selectors is set'd, it creates it with a shell."
+"That's to create the foods nice. I always set that one positive for a nice tarshen
+food, but if one of the other selectors is set'd, it creates it with a shell."
 
 >speak at droke about statched
 "That's for shebtak."
 
 >speak at droke about koldgeon
 (koldgeon)
-"There's koldgeon in some of the darfs. Try set-ing the brimny selector positive
+"There's koldgeon in some of the foods. Try set-ing the brimny selector positive
 before you use the create-er."
 
 >speak at droke about shebtak
-"There's shebtak in some of the darfs. Try set-ing the statched selector positive
+"There's shebtak in some of the foods. Try set-ing the statched selector positive
 before you use the create-er."
 
 >set brimny positive
 You set the brimny selector positive.
 
 >use create-er
-It creates a footch darf and drops it into a receptacle.
+It creates a footch food and drops it into a receptacle.
 
 >speak at droke about footch
 "I'm fond of the tarshen ones."
@@ -535,44 +535,44 @@ It creates a footch darf and drops it into a receptacle.
 It's upset with footch.
 
 >eat footch
-(first hold-ing the footch darf)
-You eat a footch darf.
+(first hold-ing the footch food)
+You eat a footch food.
 
 >set clarby positive
 You set the clarby selector positive.
 
 >use create-er
-It creates a palgic darf and drops it into a receptacle.
+It creates a palgic food and drops it into a receptacle.
 
 >t palgic
-You detect nothing useful about the palgic darf.
+You detect nothing useful about the palgic food.
 
 >speak at droke about palgic
 "If you're fond of those, create a whomm one! The whomm ones are even good-er."
 
 >eat palgic
-(first hold-ing the palgic darf)
-You eat a palgic darf.
+(first hold-ing the palgic food)
+You eat a palgic food.
 
 >set statched positive
 You set the statched selector positive.
 
 >use create-er
-It creates a whomm darf and drops it into a receptacle.
+It creates a whomm food and drops it into a receptacle.
 
 >t whomm
-Good, very good. There's so much koldgeon in this darf, you can't examine it for
+Good, very good. There's so much koldgeon in this food, you can't examine it for
 more than a minute.
 
 >speak at droke about whomm
-"That's a darf for a gostak, that is."
+"That's a food for a gostak, that is."
 
 >eat whomm
-(first hold-ing the whomm darf)
+(first hold-ing the whomm food)
 Now that's whomm! For a minute, you're enlarge'd.
 
 >use create-er
-It creates a whomm darf and drops it into a receptacle.
+It creates a whomm food and drops it into a receptacle.
 
 >hold whomm
 Hold'd.
@@ -581,49 +581,49 @@ Hold'd.
 You set the clarby selector negative.
 
 >use create-er
-It creates a darf of jenth and drops it into a receptacle.
+It creates a food of jenth and drops it into a receptacle.
 
 >t jenth
-Jenth! Why are there jenth darfs? Who eats jenth?
+Jenth! Why are there jenth foods? Who eats jenth?
 
->use at droke about jenth darf
+>use at droke about jenth food
 You can't detect any such thing.
 
->speak at droke about jenth darf
-"Darfs of jenth are awful!" speaks the droke. "It's a wainted falliger.
-Awful. Always the darfs of jenth."
+>speak at droke about jenth food
+"Foods of jenth are awful!" speaks the droke. "It's a waint'd falliger.
+Awful. Always the foods of jenth."
 
 >set brimny negative
 You set the brimny selector negative.
 
 >use create-er
-It creates a hosh darf and drops it into a receptacle.
+It creates a hosh food and drops it into a receptacle.
 
 >t hosh
-You detect nothing useful about the hosh darf.
+You detect nothing useful about the hosh food.
 
 >speak at droke about hosh
 "I'm fond of the tarshen ones."
 
 >eat hosh
-(first hold-ing the hosh darf)
-You eat a hosh darf.
+(first hold-ing the hosh food)
+You eat a hosh food.
 
 >set clarby positive
 You set the clarby selector positive.
 
 >use create-er
-It creates a skebbic darf and drops it into a receptacle.
+It creates a skebbic food and drops it into a receptacle.
 
 >t skebbic
-A darf with a shell of shebtak.
+A food with a shell of shebtak.
 
 >speak at droke about skebbic
 "I'm fond of the tarshen ones."
 
 >eat skebbic
-(first hold-ing the skebbic darf)
-You eat a skebbic darf.
+(first hold-ing the skebbic food)
+You eat a skebbic food.
 
 >speak at droke about topthtage
 You haven't detect'd or been speak'd about any such thing.
@@ -683,7 +683,7 @@ You rest for a minute.
 Path
 You're on a path exist-ing north and west, with gropples on the canopy.
 A pilter exists here, examine-ing the canopy for gropples to eat.
-The pilter examines your whomm darf.
+The pilter examines your whomm food.
 
 >use shamtag
 The shamtag sounds!
@@ -715,9 +715,9 @@ A pilter exists here, examine-ing the canopy for gropples to eat.
 
 >m
 You are hold-ing:
-two darfs:
-a whomm darf
-a suddy darf
+two foods:
+a whomm food
+a suddy food
 a sign
 a unlock-er
 your shamtag (which is close'd)
@@ -743,7 +743,7 @@ A pilter exists here, examine-ing the canopy for gropples to eat.
 
 >t pilter
 A massive animal with powerful tooths, examine-ing the northeast exit.
-The pilter examines your whomm darf.
+The pilter examines your whomm food.
 
 >drop hold-able at south exit
 It sticks itself into the south exit.
@@ -764,7 +764,7 @@ south.
 
 Stick'd in the north exit are four glauds.
 A pilter exists here, examine-ing the canopy for gropples to eat.
-The pilter examines your whomm darf.
+The pilter examines your whomm food.
 
 >z
 You rest for a minute.
@@ -773,21 +773,21 @@ You rest for a minute.
 You rest for a minute.
 The pilter detects the glaud of jenth and strong-ly bites it in the top with its
 tooths. The pilter eats the bite-age, and the glaud dissolves into the ground.
-A loddle-deeked gitch examines you from the hoggam.
+A loddle-deeked gitch examines you from the nest.
 
 >hold gitch
 You hold one.
 
 >use alive
 The alive glaud wouldn't be fond of that.
-The pilter examines your whomm darf.
+The pilter examines your whomm food.
 A warb exits the ground.
 Your gitch whines weak-ly.
 
 >bite alive
 You bite it weak-ly.
-The pilter examines your whomm darf.
-A loddle-deeked gitch flies from the hoggam to kill and eat the warb.
+The pilter examines your whomm food.
+A loddle-deeked gitch flies from the nest to kill and eat the warb.
 
 >kill alive
 You kill it strong-ly. It dissolves into the ground.
@@ -804,28 +804,28 @@ That's not a verb I recognise.
 
 >peel cobbic
 The shell dissolves into the ground, but the glaud is still stick'd.
-The pilter examines your whomm darf.
+The pilter examines your whomm food.
 A warb exits the ground.
 
 >t cobbic
 A glaud with folls of the Cobbics is a awful thing. This one is strong-ly stick'd,
 but without a shell, but still cover'd with poskot.
 The pilter examines you, but detects nothing it can eat.
-A loddle-deeked gitch flies from the hoggam to kill and eat the warb.
+A loddle-deeked gitch flies from the nest to kill and eat the warb.
 
 >use cobbic
 It uses you back.
-The pilter examines your whomm darf.
+The pilter examines your whomm food.
 
 >charge cobbic
 You charge it until it's fully-charged... and fully-charged it exists.
-The pilter examines your whomm darf.
-A group of loddle-deeked gitches moves at the hoggam.
+The pilter examines your whomm food.
+A group of loddle-deeked gitches moves at the nest.
 
 >use cobbic
 It dissolves into the ground.
-The pilter examines your whomm darf.
-A group of loddle-deeked gitches moves at the hoggam.
+The pilter examines your whomm food.
+A group of loddle-deeked gitches moves at the nest.
 
 >detect
 
@@ -841,11 +841,11 @@ Your gitch whines weak-ly.
 
 >t glaud
 You can't detect the hold-age, since the glaud-with-lock-er is close'd.
-A group of loddle-deeked gitches moves at the hoggam.
+A group of loddle-deeked gitches moves at the nest.
 
 >unlock the lock-er with unlock-er
 You unlock the glaud-with-lock-er.
-A loddle-deeked gitch examines you from the hoggam.
+A loddle-deeked gitch examines you from the nest.
 
 >open glaud
 You open the glaud-with-lock-er, reveal-ing a juffet.
@@ -863,16 +863,16 @@ A samilen for the drokes of tondam. You can move at the delcot to northeast or t
 path to north.
 A droke is speak-ing at himself by the south exit.
 
-You can also detect here a darf-creater.
+You can also detect here a food-creater.
 
 >speak at droke about pilter
 "We're always detect-ing pilters on the path. They're almost as massive as panks,
 but you can't create gropples without pilters."
 
 >speak at droke about jenth
-(the darf of jenth)
-"Darfs of jenth are awful!" speaks the droke. "It's a wainted falliger.
-Awful. Always the darfs of jenth."
+(the food of jenth)
+"Foods of jenth are awful!" speaks the droke. "It's a waint'd falliger.
+Awful. Always the foods of jenth."
 
 >speak at droke about juffet
 "From a glaud?" The droke reveals nice. "Well, aren't you good! You'll brighten
@@ -898,7 +898,7 @@ the delcot, drop'd those glauds at the doshery, and move'd away."
 
 >speak at droke about loddle
 "We're near of gitches here. The delcot is cover'd with them. Hence the
-hoggam."
+nest."
 
 >drop ditch at droke
 You can't detect any such thing.
@@ -910,9 +910,9 @@ That's not a verb I recognise.
 You are hold-ing:
 a juffet
 your gitch
-two darfs:
-a whomm darf
-a suddy darf
+two foods:
+a whomm food
+a suddy food
 a sign
 a unlock-er
 your shamtag (which is close'd)
@@ -941,7 +941,7 @@ A warb exits the ground.
 
 >set shamtag positive
 That's already positive.
-A loddle-deeked gitch flies from the hoggam to kill and eat the warb.
+A loddle-deeked gitch flies from the nest to kill and eat the warb.
 Your gitch examines you.
 
 >set shamtag negative
@@ -950,15 +950,15 @@ A warb exits the ground.
 
 >hold pogrifon
 Hold'd.
-A loddle-deeked gitch flies from the hoggam to kill and eat the warb.
+A loddle-deeked gitch flies from the nest to kill and eat the warb.
 
->drop whomm darf in shamtag
-You drop the whomm darf into the shamtag.
-A group of loddle-deeked gitches moves at the hoggam.
+>drop whomm food in shamtag
+You drop the whomm food into the shamtag.
+A group of loddle-deeked gitches moves at the nest.
 
 >t shamtag
 It's a good and sharmy shamtag that sounds when you use it. Its top is
-open'd and holds a whomm darf. The shamtag is currently set'd negative.
+open'd and holds a whomm food. The shamtag is currently set'd negative.
 
 >close shamtag
 You close the shamtag.
@@ -966,7 +966,7 @@ A warb exits the ground.
 
 >set shamtag positive
 You set the shamtag positive.
-A loddle-deeked gitch flies from the hoggam to kill and eat the warb.
+A loddle-deeked gitch flies from the nest to kill and eat the warb.
 
 >l
 As you enter the doshery, you detect a massive smell. But not the nice smell of
@@ -1074,7 +1074,7 @@ a darken'd entryway, a path exists to northwest and west, enter-ing a samilen to
 south.
 
 You can also detect here a warb.
-A loddle-deeked gitch flies from the hoggam to kill and eat the warb.
+A loddle-deeked gitch flies from the nest to kill and eat the warb.
 Your gitch bites you.
 
 >i
@@ -1084,10 +1084,10 @@ That's not a verb I recognise.
 That's already positive.
 
 >set shamtag negative
-It opens itself, reveal-ing a whomm darf.
+It opens itself, reveal-ing a whomm food.
 
 >t whomm
-Good, very good. There's so much koldgeon in this darf, you can't examine it for
+Good, very good. There's so much koldgeon in this food, you can't examine it for
 more than a minute.
 
 >hold whomm
@@ -1102,7 +1102,7 @@ You can't detect any such thing.
 
 >drop juffet in shamtag
 You drop the juffet into the shamtag.
-A loddle-deeked gitch flies from the hoggam to kill and eat the warb.
+A loddle-deeked gitch flies from the nest to kill and eat the warb.
 
 >close shamtag
 You close the shamtag.
@@ -1110,7 +1110,7 @@ A warb exits the ground.
 
 >set shamtag positive
 You set the shamtag positive.
-A loddle-deeked gitch flies from the hoggam to kill and eat the warb.
+A loddle-deeked gitch flies from the nest to kill and eat the warb.
 
 >l
 "Back again, weak gostak? I'm still here, and the doshes are still mine."
@@ -1131,7 +1131,7 @@ The gheliper just ignores your weak kill-age.
 >brighten doshes
 You brighten the doshes.
 
-The gheliper detects the brighten'd doshes, and is dunmile. "My doshes! All my
+The gheliper detects the brighten'd doshes, and is sick. "My doshes! All my
 martle doshes!" She examines you, and protects the south exit. "You! Everything was so
 nice, so tunsel, until you move'd from the bewl, unstick-ing my glauds, attack-ing
 the darken-age, brighten-ing my... brighten-ing my..."

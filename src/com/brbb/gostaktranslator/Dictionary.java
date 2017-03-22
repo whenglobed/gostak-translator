@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 import java.util.HashMap;
 
 public class Dictionary {
-    private HashMap<String, String> map;
+    private HashMap<String, Definition> map;
     
     private static final int DEFAULT_CAPACITY = 50;
     private static final float DEFAULT_LOAD = .75f;
@@ -19,7 +19,7 @@ public class Dictionary {
      * @throws IOException
      */
     public Dictionary(String dictFileName) throws IOException {
-        map = new HashMap<String, String>(DEFAULT_CAPACITY, DEFAULT_LOAD);
+        map = new HashMap<String, Definition>(DEFAULT_CAPACITY, DEFAULT_LOAD);
         LineNumberReader infile = new LineNumberReader(new InputStreamReader
                 (new FileInputStream(dictFileName), "UTF-8"));
 
@@ -30,7 +30,7 @@ public class Dictionary {
             if (!line.startsWith("#") && !line.isEmpty()) {
                 tokens = line.split(",");
                 if (tokens.length == 3) {
-                    map.put(tokens[0].trim(), tokens[1].trim());
+                    map.put(tokens[0].trim(), new Definition(tokens[1].trim(), tokens[2].trim()));
                 }
                 else {
                     int lineNum = infile.getLineNumber();
@@ -42,7 +42,7 @@ public class Dictionary {
     }
     
     // Essentially a renamed wrapper for HashMap.get()
-    protected String translate(String word) {
+    protected Definition translate(String word) {
         return map.get(word);
     }
 }
