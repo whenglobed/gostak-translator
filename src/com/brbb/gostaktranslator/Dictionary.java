@@ -24,15 +24,18 @@ public class Dictionary {
                 (new FileInputStream(dictFileName), "UTF-8"));
 
         String line;
-        String tokens[] = new String[2];
+        String tokens[] = new String[3];
         while ((line = infile.readLine()) != null) {
-            tokens = line.split(":");
-            if (tokens.length == 2) {
-                map.put(tokens[0].trim(), tokens[1].trim());
-            }
-            else {
-                int lineNum = infile.getLineNumber();
-                System.err.printf("Unexpected number of tokens on dictionary line %d\n", lineNum); // LOG
+            line.trim();
+            if (!line.startsWith("#") && !line.isEmpty()) {
+                tokens = line.split(",");
+                if (tokens.length == 3) {
+                    map.put(tokens[0].trim(), tokens[1].trim());
+                }
+                else {
+                    int lineNum = infile.getLineNumber();
+                    System.err.printf("Unexpected number of tokens on dictionary line %d\n", lineNum); // LOG
+                }
             }
         }
         infile.close();

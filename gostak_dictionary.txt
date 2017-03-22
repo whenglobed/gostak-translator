@@ -1,4 +1,5 @@
 # Gostakian,Translation,Category
+
 abvate,reveal,none
 bal,yes,none
 banch,eye,none
@@ -10,8 +11,10 @@ brangy,ground,none
 brolge,hint,none
 calbice,shell,none
 camling,minute,none
+
 chalm,sign,none
 chender,receptacle,none
+
 contail,live,guess
 coyd,selector,none
 cren,stick,none
@@ -37,10 +40,12 @@ dobbly,fancy,none
 dosh,dosh,creature
 droke,droke,creature
 dugrid,top,none
+
 dunmile,sick,guess
 durch,use,vague
 durl,strong,none
 engope,enlarge,none
+
 falliger,falliger,unknown
 fargish,give,none
 fesh,purpose,none
@@ -48,6 +53,7 @@ feshary,library,none
 flome,sound,none
 fosk,canopy,vague
 fosken,away,vague
+
 fostin,fostin,object
 frike,fly,none
 gask,charge,vague
@@ -67,9 +73,11 @@ gurr,near,none
 halpock,game,none
 heam,use,none
 heamy,useful,none
+
 hoggam,nest,vague
 interofgan,interactive,none
 jallon,menu,none
+
 jenth,jenth,object
 leil,eat,none
 lello,close,none
@@ -78,6 +86,7 @@ lutt,exit,none
 malk,bite,none
 mavrous,massive,none
 mislouk,mistype,none
+
 morleon,morleon,object
 mosky,quiet,none
 motch,cover,none
@@ -99,6 +108,7 @@ relouk,retype,none
 rike,set,none
 roggle,lock,none
 rorm,nice,none
+
 samilen,samilen,object
 scurm,awful,none
 shamtag,shamtag,object
@@ -127,6 +137,7 @@ unleilable,inedible,none
 unzankable,unkillable,none
 vold,frighten,none
 vorl,protect,none
+
 waint,waint,unknown
 warb,warb,creature
 zank,kill,none
@@ -150,4 +161,4 @@ flom,sound,none
 frik,fly,none
 glak,attack,none
 glaud-with-roggler,glaud-with-lock-er,none
-rik,set
+rik,set,vague
