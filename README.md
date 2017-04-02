@@ -7,7 +7,14 @@ I encourage everyone interested in made-up languages or decoding puzzles to try 
 http://ifdb.tads.org/viewgame?id=w5s3sv43s3p98v45
 
 #### Usage:
-Run "GostakTranslator.jar" (the Java Runtime Environment must be installed on your system). The "gostak_dictionary.txt" file must be in the same directory as "GostakTranslator.jar". When using the "Translate File" option, target files should be in .txt or .log format.
+Download "GostakTranslator.jar" from the Releases section and run it. The Java Runtime Environment must be installed on your system, and the file "gostak_dictionary.txt" must be in the same directory as "GostakTranslator.jar". When using the "Translate File" option, target files should be in .txt or .log format.
+
+"Translate File" will output an .html file with words color-coded by category:
+GREEN: Creature names that have no translation.
+BLUE: Objects, places, and substances that have no translation.
+ORANGE: Words which have a vague translation, and the category of which can be understood from context, but are lacking contexts and specifics.
+PINK: Guesses based on very little context.
+RED: Unknown words without enough context even for a guess.
 
 #### Sample Gostakian Text:
 "Finally, here you are. At the delcot of tondam, where doshes deave. But the doshery lutt is crenned with glauds.
