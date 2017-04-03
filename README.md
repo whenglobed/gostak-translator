@@ -7,14 +7,17 @@ I encourage everyone interested in made-up languages or decoding puzzles to try 
 http://ifdb.tads.org/viewgame?id=w5s3sv43s3p98v45
 
 #### Usage:
-Download "GostakTranslator.jar" from the Releases section and run it. The Java Runtime Environment must be installed on your system, and the file "gostak_dictionary.txt" must be in the same directory as "GostakTranslator.jar". When using the "Translate File" option, target files should be in .txt or .log format.
+Download "GostakTranslator.jar" from the Releases section and run it. The Java Runtime Environment must
+be installed on your system, and the file "gostak_dictionary.txt" must be in the same directory as
+"GostakTranslator.jar". When using the "Translate File" option, target files should be in .txt or .log format.
 
-"Translate File" will output an .html file with words color-coded by category:
-GREEN: Creature names that have no translation.
-BLUE: Objects, places, and substances that have no translation.
-ORANGE: Words which have a vague translation, and the category of which can be understood from context, but are lacking contexts and specifics.
-PINK: Guesses based on very little context.
-RED: Unknown words without enough context even for a guess.
+"Translate File" will output an .html file with words color-coded by category:  
+GREEN: Creature names that have no translation.  
+BLUE: Objects, places, and substances that have no translation.  
+ORANGE: Words which have a vague translation, and the category of which can be understood from context,
+but are lacking specifics.  
+PINK: Guesses based on very little context.  
+RED: Unknown words without enough context even for a guess.  
 
 #### Sample Gostakian Text:
 "Finally, here you are. At the delcot of tondam, where doshes deave. But the doshery lutt is crenned with glauds.
@@ -27,9 +30,7 @@ follows English syntax, and includes many English words: articles, prepositions,
 others are left in English, but most of the verbs and nouns are completely alien. Many of the objects and
 actions being described are also alien, in the strong sense of having no exact analogue on Earth. Because
 the game is text-only, most of the challenge is extracting meaning from context clues, and many of the
-definitions used in this translator are my own guesses. Furthermore, many Gostakian words are left
-unchanged where I felt they had no translation, such as the names of creatures (including the titular
-gostaks themselves).
+definitions used in this translator are my own guesses.
 
 #### Translation:
 The input is tokenized using whitespace as a delimiter. Newlines are preserved in the output.
@@ -41,4 +42,5 @@ most use cases, but for words like "deave" which can mean "exist", "stay", or "l
 translation will occasionally be awkward until I make the parser more sophisticated.
 
 #### Special Thanks:
-Special thanks to David Welbourn, whose notes on the game helped fill gaps in my own: http://www.plover.net/~davidw/gostak.html
+Special thanks to David Welbourn, whose notes on the game helped fill gaps in my own:  
+http://www.plover.net/~davidw/gostak.html
