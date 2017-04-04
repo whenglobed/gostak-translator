@@ -29,8 +29,8 @@ import javax.swing.filechooser.FileNameExtensionFilter;
  */
 public class TranslatorGui implements ActionListener {
     private static final String DEFAULT_DICTIONARY_FILE = "gostak_dictionary.txt";
-    private static final String DEFAULT_OUTPUT_FILE = "gostak_output.txt";
-
+    private static final String DEFAULT_HTML_OUTPUT = "gostak_output.html";
+    private static final String DEFAULT_TXT_OUTPUT = "gostak_output.txt";
     private static final String DEMO_TEXT = "\"This is the delcot of tondam,"
             + " where gitches frike and duscats glake. Across from a tophthed"
             + " curple, a gomway deaves to kiloff and kirf, gombing a samilen"
@@ -160,7 +160,7 @@ public class TranslatorGui implements ActionListener {
             translateFile();
         }
         else {
-            System.err.printf("Error: unexpected action command %s\n", command);
+            System.err.printf("Error: unexpected action command %s\n", command); // LOG
         }
     }
 
@@ -197,28 +197,43 @@ public class TranslatorGui implements ActionListener {
             };
 
             fileChooser.setDialogTitle("Translate a file");
-            FileNameExtensionFilter filter = new FileNameExtensionFilter(
+            FileNameExtensionFilter txtLogFilter = new FileNameExtensionFilter(
                     ".txt or .log files", "txt", "log");
-            fileChooser.setFileFilter(filter);
+            fileChooser.setFileFilter(txtLogFilter);
 
             if (fileChooser.showDialog(mainWindow, "Translate File") == JFileChooser.APPROVE_OPTION) {
                 File inFile = fileChooser.getSelectedFile();
                 if (!inFile.exists()) {
                     throw new FileNotFoundException(inFile.getCanonicalPath());
                 }
-
                 String inputFileName = inFile.getCanonicalPath();
                 fileChooser.setDialogTitle("Save output file");
-                fileChooser.setSelectedFile(new File(DEFAULT_OUTPUT_FILE));
+                fileChooser.resetChoosableFileFilters();
+                if (htmlButton.isSelected()) {
+                    FileNameExtensionFilter htmlFilter = new FileNameExtensionFilter(
+                            ".html files", "html");
+                    fileChooser.setFileFilter(htmlFilter);
+                    fileChooser.setSelectedFile(new File(DEFAULT_HTML_OUTPUT));
+                }
+                else if (txtButton.isSelected()) {
+                    FileNameExtensionFilter txtFilter = new FileNameExtensionFilter(
+                            ".txt files", "txt");
+                    fileChooser.setFileFilter(txtFilter);
+                    fileChooser.setSelectedFile(new File(DEFAULT_TXT_OUTPUT));
+                }
+                else {
+                    System.err.println("Error: no output file type selected."); // LOG
+                }
+
                 try {
                     Thread.sleep(250, 0); // Slight delay before opening the save dialog.
                 }
                 catch (InterruptedException exc) {
                     exc.printStackTrace(); // LOG
                 }
+
                 if (fileChooser.showSaveDialog(mainWindow) == JFileChooser.APPROVE_OPTION) {
                     String outputFileName = fileChooser.getSelectedFile().getCanonicalPath();
-
                     try {
                         Dictionary dictionary = new Dictionary(dictFileName);
                         Parser p = new Parser(inputFileName, outputFileName, dictionary);

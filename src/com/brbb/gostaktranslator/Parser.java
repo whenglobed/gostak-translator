@@ -15,7 +15,7 @@ public class Parser {
     private PrintWriter outfile;
     private JTextPane outputPane;
     private Dictionary dictionary;
-    private String inputType;
+    private String outputType;
     private ArrayList<String> suffixes;
 
     /**
@@ -27,8 +27,7 @@ public class Parser {
      * @param dictionary the Dictionary to use for translation
      */
     public Parser(String input, JTextPane outputPane, Dictionary dictionary) {
-        inputType = "string";
-
+        outputType = "gui";
         sc = new Scanner(input);
         this.outputPane = outputPane;
         this.dictionary = dictionary;
@@ -46,8 +45,12 @@ public class Parser {
      */
     public Parser(String inputFileName, String outputFileName, Dictionary dictionary) {
         try {
-            inputType = "file";
-
+            if (outputFileName.endsWith(".html")) {
+                outputType = "html";
+            }
+            else {
+                outputType = "txt";
+            }
             sc = new Scanner(new FileInputStream(inputFileName), "UTF-8");
             outfile = new PrintWriter(outputFileName, "UTF-8");
             this.dictionary = dictionary;
@@ -83,6 +86,7 @@ public class Parser {
     protected void parse() {
         // TODO: Treat hyphens as delimiters (e.g. "glaud-with-roggler")
         StringBuilder output = new StringBuilder(256);
+        // TODO: if html output, write html boilerplate tags.
 
         while (sc.hasNextLine()) {
             Scanner lineScanner = new Scanner(sc.nextLine());
@@ -147,6 +151,7 @@ public class Parser {
                 // Add back punctuation and suffixes, and recapitalize if needed.
                 t.rebuildEnglish();
 
+                // TODO: if html output, wrap word in html if required.
                 output.append(t.english);
                 if (lineScanner.hasNext()) {
                     output.append(" ");
@@ -155,10 +160,11 @@ public class Parser {
             lineScanner.close();
             output.append("\n");
         }
-        if (inputType.equals("string")) {
+        if (outputType.equals("gui")) {
             outputPane.setText(output.toString());
         }
-        else if (inputType.equals("file")) {
+        else if (outputType.equals("html") || outputType.equals("txt")) {
+            // TODO: if html, close tags.
             outfile.print(output.toString());
             outfile.close();
         }
@@ -167,4 +173,27 @@ public class Parser {
         }
     }
 
+
+    /**
+     * Adds HTML boilerplate and hardcoded CSS class info.
+     */
+    private void AddOpeningHtml() {
+        // TODO
+    }
+
+
+    /**
+     * Closes HTML tags.
+     */
+    private void AddClosingHtml() {
+        // TODO
+    }
+
+
+    /**
+     * Wraps a translated word in HTML tags according to its category.
+     */
+    private void WrapHtmlByCategory() {
+        // TODO
+    }
 }
