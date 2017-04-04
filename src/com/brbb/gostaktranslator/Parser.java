@@ -17,7 +17,7 @@ public class Parser {
     private Dictionary dictionary;
     private String inputType;
     private ArrayList<String> suffixes;
-    
+
     /**
      * Constructor. Prepares to parse a string and output the translation to
      * a JTextPane.
@@ -28,14 +28,14 @@ public class Parser {
      */
     public Parser(String input, JTextPane outputPane, Dictionary dictionary) {
         inputType = "string";
-                
+
         sc = new Scanner(input);
         this.outputPane = outputPane;
         this.dictionary = dictionary;
         initializeSuffixes();
     }
-    
-    
+
+
     /**
      * Constructor. Prepares to parse input from the specified file and write
      * the translation to an output file.
@@ -47,7 +47,7 @@ public class Parser {
     public Parser(String inputFileName, String outputFileName, Dictionary dictionary) {
         try {
             inputType = "file";
-            
+
             sc = new Scanner(new FileInputStream(inputFileName), "UTF-8");
             outfile = new PrintWriter(outputFileName, "UTF-8");
             this.dictionary = dictionary;
@@ -58,8 +58,8 @@ public class Parser {
             System.exit(1);
         }
     }
-    
-    
+
+
     /**
      * Populates the suffix array with common suffixes.
      */
@@ -75,31 +75,30 @@ public class Parser {
         suffixes.add("\'s"); // This needs to be added (and checked) before "s" by itself.
         suffixes.add("s");
     }
-    
-    
+
+
     /**
      * Reads input and outputs a translation.
      */
     protected void parse() {
         // TODO: Treat hyphens as delimiters (e.g. "glaud-with-roggler")
-        // TODO: Color-code output for different word categories.
         StringBuilder output = new StringBuilder(256);
-        
+
         while (sc.hasNextLine()) {
             Scanner lineScanner = new Scanner(sc.nextLine());
             while (lineScanner.hasNext()) {
                 Token t = new Token();
                 Definition d = null;
                 boolean wasTranslated = false;
-    
+
                 // Get next token.
                 t.gostakian = lineScanner.next();
-                
+
                 t.trimAndRememberPunct();
                 t.rememberFirstCapital();
-          
+
                 t.gostakian = t.gostakian.toLowerCase();
-    
+
                 // Attempt to find the token in the dictionary.
                 d = dictionary.translate(t.gostakian);
                 if (d != null) {
@@ -117,10 +116,10 @@ public class Parser {
                         Matcher m = p.matcher(t.gostakian);
                         if (m.find()) {
                             StringBuilder trimmed = new StringBuilder(t.gostakian);
-                            
+
                             while (!wasTranslated && trimmed.length() > 1) {
                                 trimmed.deleteCharAt(trimmed.length() - 1);
-                                
+
                                 d = dictionary.translate(trimmed.toString());
                                 if (d != null) {
                                     t.english.append(d.translation);
@@ -136,7 +135,7 @@ public class Parser {
                         }
                     }
                 }
-    
+
                 if (!wasTranslated) {
                     // If translation has failed, simply output the token as read.
                     // Once the dictionary and parsing rules are robust, this will
@@ -144,10 +143,10 @@ public class Parser {
                     // TODO: keep a list of unique untranslated words.
                     t.english.append(t.gostakian);
                 }
-    
+
                 // Add back punctuation and suffixes, and recapitalize if needed.
                 t.rebuildEnglish();
-                
+
                 output.append(t.english);
                 if (lineScanner.hasNext()) {
                     output.append(" ");
