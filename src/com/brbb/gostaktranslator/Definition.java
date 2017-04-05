@@ -8,10 +8,10 @@ final class Definition {
     protected enum Category {
         CREATURE, OBJECT, VAGUE, GUESS, UNKNOWN, NONE;
     }
-    
+
     protected String translation;
     protected Category category;
-    
+
     /**
      * Constructor.
      */

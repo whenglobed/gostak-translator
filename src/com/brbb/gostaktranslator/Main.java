@@ -4,9 +4,7 @@ package com.brbb.gostaktranslator;
  * Main class for the Gostakian translator.
  * 
  * @author Alex Johnson
- * @version 1.1, 03/21/2017
- * 
- * TODO: colorize GUI output based on word category.
+ * @version 1.2, 04/04/2017
  */
 public class Main {
 

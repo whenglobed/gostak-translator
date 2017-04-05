@@ -8,10 +8,10 @@ import java.util.HashMap;
 
 public class Dictionary {
     private HashMap<String, Definition> map;
-    
+
     private static final int DEFAULT_CAPACITY = 50;
     private static final float DEFAULT_LOAD = .75f;
-    
+
     /**
      * Constructor. Builds the dictionary map from the provided input file.
      * 
@@ -40,7 +40,7 @@ public class Dictionary {
         }
         infile.close();
     }
-    
+
     // Essentially a renamed wrapper for HashMap.get()
     protected Definition translate(String word) {
         return map.get(word);

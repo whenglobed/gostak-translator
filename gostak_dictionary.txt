@@ -39,7 +39,7 @@ dobbly,fancy,none
 dosh,dosh,creature
 droke,droke,creature
 dugrid,top,none
-dunmile,sick,guess
+dunmile,crazed,guess
 durch,use,vague
 durl,strong,none
 

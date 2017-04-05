@@ -24,8 +24,6 @@ import javax.swing.filechooser.FileNameExtensionFilter;
 
 /**
  * GUI for the Gostak Translator.
- * 
- * @version 1.1.0, 01/10/2015
  */
 public class TranslatorGui implements ActionListener {
     private static final String DEFAULT_DICTIONARY_FILE = "gostak_dictionary.txt";
@@ -257,5 +255,3 @@ public class TranslatorGui implements ActionListener {
     }
 
 }
-
-

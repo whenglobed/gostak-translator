@@ -10,13 +10,17 @@ import java.util.regex.Pattern;
 
 import javax.swing.JTextPane;
 
+import com.brbb.gostaktranslator.Definition.Category;
+
 public class Parser {
     private Scanner sc;
     private PrintWriter outfile;
+    private StringBuilder output;
     private JTextPane outputPane;
     private Dictionary dictionary;
     private String outputType;
     private ArrayList<String> suffixes;
+
 
     /**
      * Constructor. Prepares to parse a string and output the translation to
@@ -29,6 +33,7 @@ public class Parser {
     public Parser(String input, JTextPane outputPane, Dictionary dictionary) {
         outputType = "gui";
         sc = new Scanner(input);
+        output = new StringBuilder(256);
         this.outputPane = outputPane;
         this.dictionary = dictionary;
         initializeSuffixes();
@@ -53,6 +58,10 @@ public class Parser {
             }
             sc = new Scanner(new FileInputStream(inputFileName), "UTF-8");
             outfile = new PrintWriter(outputFileName, "UTF-8");
+            output = new StringBuilder(256);
+            if (outputType.equals("html")) {
+                addOpeningHtml();
+            }
             this.dictionary = dictionary;
             initializeSuffixes();
         }
@@ -85,9 +94,6 @@ public class Parser {
      */
     protected void parse() {
         // TODO: Treat hyphens as delimiters (e.g. "glaud-with-roggler")
-        StringBuilder output = new StringBuilder(256);
-        // TODO: if html output, write html boilerplate tags.
-
         while (sc.hasNextLine()) {
             Scanner lineScanner = new Scanner(sc.nextLine());
             while (lineScanner.hasNext()) {
@@ -151,8 +157,12 @@ public class Parser {
                 // Add back punctuation and suffixes, and recapitalize if needed.
                 t.rebuildEnglish();
 
-                // TODO: if html output, wrap word in html if required.
-                output.append(t.english);
+                if (outputType.equals("html")) {
+                    wrapHtmlByCategory(t);
+                }
+                else {
+                    output.append(t.english);
+                }
                 if (lineScanner.hasNext()) {
                     output.append(" ");
                 }
@@ -164,7 +174,9 @@ public class Parser {
             outputPane.setText(output.toString());
         }
         else if (outputType.equals("html") || outputType.equals("txt")) {
-            // TODO: if html, close tags.
+            if (outputType.equals("html")) {
+                addClosingHtml();
+            }
             outfile.print(output.toString());
             outfile.close();
         }
@@ -177,23 +189,59 @@ public class Parser {
     /**
      * Adds HTML boilerplate and hardcoded CSS class info.
      */
-    private void AddOpeningHtml() {
-        // TODO
+    private void addOpeningHtml() {
+        output.append("<!DOCTYPE html><html lang=\"en\"><head><meta charset=\"utf-8\">"
+                + "<title>Gostakian-to-English Translation</title>"
+                + "<style type=\"text/css\">"
+                + "body {white-space: pre-wrap;}"
+                + ".creature {color: #228B22;}"
+                + ".object {color: #0000FF;}"
+                + ".vague {color: #FF8C00;}"
+                + ".guess {color: #FF1493;}"
+                + ".unknown {color: #FF0000;}"
+                + ".none {color: #000000;}"
+                + "</style></head><body><p>");
     }
 
 
     /**
      * Closes HTML tags.
      */
-    private void AddClosingHtml() {
-        // TODO
+    private void addClosingHtml() {
+        output.append("</p></body></html>");
     }
 
 
     /**
      * Wraps a translated word in HTML tags according to its category.
+     * 
+     * @param t the current translation token
      */
-    private void WrapHtmlByCategory() {
-        // TODO
+    private void wrapHtmlByCategory(Token t) {
+        if (t.category == Category.NONE) {
+            output.append(t.english);
+            return;
+        }
+
+        if (t.category == Category.CREATURE) {
+            output.append("<span class=\"creature\">");
+        }
+        else if (t.category == Category.OBJECT) {
+            output.append("<span class=\"object\">");
+        }
+        else if (t.category == Category.VAGUE) {
+            output.append("<span class=\"vague\">");
+        }
+        else if (t.category == Category.GUESS) {
+            output.append("<span class=\"guess\">");
+        }
+        else if (t.category == Category.UNKNOWN) {
+            output.append("<span class=\"unknown\">");
+        }
+        else {
+            System.err.println("Error: unexepected word category."); // LOG
+        }
+        output.append(t.english);
+        output.append("</span>");
     }
 }

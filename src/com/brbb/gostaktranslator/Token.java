@@ -14,7 +14,7 @@ final class Token {
     StringBuilder endPunct = new StringBuilder();
     StringBuilder english = new StringBuilder();
     StringBuilder suffix = new StringBuilder();
-    Category category;
+    Category category = Category.NONE;
     boolean hasFirstCapital;
     boolean hasBeginPunct;
     boolean hasEndPunct;

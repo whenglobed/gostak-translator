@@ -295,7 +295,7 @@ It's not eat-able by gostaks, but you could drop it at a pank if you detect one.
 >eat suddy
 (first hold-ing the suddy food)
 Ignore-ing the droke's speak, you eat a suddy food. But suddy foods are only
-for pilters and panks, not sick gostaks. Within a minute, you dissolve into the
+for pilters and panks, not crazed gostaks. Within a minute, you dissolve into the
 ground.
 
 
@@ -1131,7 +1131,7 @@ The gheliper just ignores your weak kill-age.
 >brighten doshes
 You brighten the doshes.
 
-The gheliper detects the brighten'd doshes, and is sick. "My doshes! All my
+The gheliper detects the brighten'd doshes, and is crazed. "My doshes! All my
 martle doshes!" She examines you, and protects the south exit. "You! Everything was so
 nice, so tunsel, until you move'd from the bewl, unstick-ing my glauds, attack-ing
 the darken-age, brighten-ing my... brighten-ing my..."
