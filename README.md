@@ -8,8 +8,8 @@ http://ifdb.tads.org/viewgame?id=w5s3sv43s3p98v45
 
 #### Usage:
 Download "GostakTranslator.jar" from the Releases section and run it. The Java Runtime Environment must
-be installed on your system, and the file "gostak_dictionary.txt" must be in the same directory as
-"GostakTranslator.jar". When using the "Translate File" option, target files should be in .txt or .log format.
+be installed on your system. When using the "Translate File" option, target files should be in .txt or .log
+format.
 
 Translated files can be generated as either plaintext or as .html files with color-coding:  
 GREEN: Creature names that have no translation.  

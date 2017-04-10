@@ -61,16 +61,6 @@ public class TranslatorGui implements ActionListener {
     }
 
     /**
-     * Constructor with a specified dictionary file name.
-     * 
-     * @param dictFileName the dictionary file name
-     */
-    public TranslatorGui(String dictFileName) {
-        this.dictFileName = dictFileName;
-        setupComponents();
-    }
-
-    /**
      * Initializes and arranges GUI components.
      */
     private void setupComponents() {
@@ -146,8 +136,14 @@ public class TranslatorGui implements ActionListener {
                 Parser p = new Parser(input, outputText, dictionary);
                 p.parse();
             }
+            catch (FileNotFoundException exc) {
+                String errorMessage = "Could not load dictionary file.";
+                JOptionPane.showMessageDialog(mainWindow, errorMessage,
+                        "Translation Failed", JOptionPane.WARNING_MESSAGE);
+                exc.printStackTrace(); // LOG
+            }
             catch (IOException exc) {
-                String errorMessage = "Could not load dictionary file \"" + dictFileName + "\"";
+                String errorMessage = "Error reading dictionary file.";
                 JOptionPane.showMessageDialog(mainWindow, errorMessage,
                         "Translation Failed", JOptionPane.WARNING_MESSAGE);
                 exc.printStackTrace(); // LOG
@@ -237,11 +233,17 @@ public class TranslatorGui implements ActionListener {
                         Parser p = new Parser(inputFileName, outputFileName, dictionary);
                         p.parse();
                     }
-                    catch (IOException exc) {
-                        String errorMessage = "Could not open dictionary file \""
-                                + dictFileName + "\"";
+                    catch (FileNotFoundException exc) {
+                        String errorMessage = "Could not load dictionary file.";
                         JOptionPane.showMessageDialog(mainWindow, errorMessage,
                                 "Translation Failed", JOptionPane.WARNING_MESSAGE);
+                        exc.printStackTrace(); // LOG
+                    }
+                    catch (IOException exc) {
+                        String errorMessage = "Error reading dictionary file.";
+                        JOptionPane.showMessageDialog(mainWindow, errorMessage,
+                                "Translation Failed", JOptionPane.WARNING_MESSAGE);
+                        exc.printStackTrace(); // LOG
                     }
                 }
             }

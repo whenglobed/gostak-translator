@@ -1,7 +1,8 @@
 package com.brbb.gostaktranslator;
 
+import java.io.FileNotFoundException;
+import java.io.InputStream;
 import java.io.LineNumberReader;
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.HashMap;
@@ -15,13 +16,18 @@ public class Dictionary {
     /**
      * Constructor. Builds the dictionary map from the provided input file.
      * 
-     * @param dictFileName the input filename for the dictionary word mappings
-     * @throws IOException
+     * @param dictFileName the resource filename for the dictionary word mappings
+     * @throws FileNotFoundException if dictFileName cannot be located
+     * @throws IOException if an error occurs when reading the dictionary file
      */
-    public Dictionary(String dictFileName) throws IOException {
+    public Dictionary(String dictFileName) throws FileNotFoundException, IOException {
         map = new HashMap<String, Definition>(DEFAULT_CAPACITY, DEFAULT_LOAD);
+        InputStream dictStream = Dictionary.class.getResourceAsStream("/" + dictFileName);
+        if (dictStream == null) {
+            throw new FileNotFoundException();
+        }
         LineNumberReader infile = new LineNumberReader(new InputStreamReader
-                (new FileInputStream(dictFileName), "UTF-8"));
+                (dictStream, "UTF-8"));
 
         String line;
         String tokens[] = new String[3];

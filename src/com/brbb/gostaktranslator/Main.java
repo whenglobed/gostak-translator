@@ -4,7 +4,7 @@ package com.brbb.gostaktranslator;
  * Main class for the Gostakian translator.
  * 
  * @author Alex Johnson
- * @version 1.2, 04/04/2017
+ * @version 1.3, 04/10/2017
  */
 public class Main {
 
