@@ -19,6 +19,9 @@ but are lacking specifics.
 PINK: Guesses based on very little context.  
 RED: Unknown words without enough context even for a guess.  
 
+Hovering over an orange or pink word (i.e. a translation that is vague or a guess) will show the untranslated
+Gostakian word in a tooltip.
+
 #### Sample Gostakian Text:
 "Finally, here you are. At the delcot of tondam, where doshes deave. But the doshery lutt is crenned with glauds.
 Glauds! How rorm it would be to pell back to the bewl and distunk them, distunk the whole delcot, let the drokes
