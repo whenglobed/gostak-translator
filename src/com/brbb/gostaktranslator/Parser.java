@@ -190,16 +190,25 @@ public class Parser {
      * Adds HTML boilerplate and hardcoded CSS class info.
      */
     private void addOpeningHtml() {
+        // The "position: relative" properties are needed so the tooltip
+        // spans will treat the vague/guess spans as nearest positioned
+        // ancestors.
         output.append("<!DOCTYPE html><html lang=\"en\"><head><meta charset=\"utf-8\">"
                 + "<title>Gostakian-to-English Translation</title>"
                 + "<style type=\"text/css\">"
                 + "body {white-space: pre-wrap;}"
                 + ".creature {color: #228B22;}"
                 + ".object {color: #0000FF;}"
-                + ".vague {color: #FF8C00;}"
-                + ".guess {color: #FF1493;}"
+                + ".vague {color: #FF8C00; position: relative;}"
+                + ".guess {color: #FF1493; position: relative;}"
                 + ".unknown {color: #FF0000;}"
                 + ".none {color: #000000;}"
+                + ".tooltip {position:absolute; margin-left: -100%; bottom: 95%;"
+                + "background-color: #FFFFFF; color: #000000; border: 1px solid grey;"
+                + "border-radius: 5px; padding: 5px 5px; z-index: 1; visibility: hidden;"
+                + "opacity: 0; transition: opacity .1s;}"
+                + ".vague:hover .tooltip {visibility: visible; opacity: 1;}"
+                + ".guess:hover .tooltip {visibility: visible; opacity: 1;}"
                 + "</style></head><body><p>");
     }
 
@@ -242,6 +251,9 @@ public class Parser {
             System.err.println("Error: unexepected word category."); // LOG
         }
         output.append(t.english);
+        if (t.category == Category.VAGUE || t.category == Category.GUESS) {
+            output.append("<span class=\"tooltip\">" + t.gostakian + "</span>");
+        }
         output.append("</span>");
     }
 }
