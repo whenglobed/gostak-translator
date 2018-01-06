@@ -22,10 +22,8 @@ RED: Unknown words without enough context even for a guess.
 Hovering over an orange or pink word (i.e. a translation that is vague or a guess) will show the untranslated
 Gostakian word in a tooltip.
 
-#### Sample Gostakian Text:
-"Finally, here you are. At the delcot of tondam, where doshes deave. But the doshery lutt is crenned with glauds.
-Glauds! How rorm it would be to pell back to the bewl and distunk them, distunk the whole delcot, let the drokes
-uncren them. But you are the gostak. The gostak distims the doshes. And no glaud will vorl them from you."
+#### Screenshot:
+![screenshot](/img/gostak_translator_screenshot.png?raw=trust)
 
 #### The Language:
 The language in Carl Muckenhoupt's game is not named, but I call it "Gostakian" for ease of reference. It
