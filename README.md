@@ -23,7 +23,7 @@ Hovering over an orange or pink word (i.e. a translation that is vague or a gues
 Gostakian word in a tooltip.
 
 #### Screenshot:
-![screenshot](/img/gostak_translator_screenshot.png?raw=trust)
+![screenshot](img/gostak_translator_screenshot.png?raw=true)
 
 #### The Language:
 The language in Carl Muckenhoupt's game is not named, but I call it "Gostakian" for ease of reference. It
